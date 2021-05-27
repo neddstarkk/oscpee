@@ -1,0 +1,1595 @@
+1
+00:00:01,520 --> 00:00:04,000
+
+many people don't realize just how much
+
+2
+00:00:04,000 --> 00:00:04,010
+many people don't realize just how much
+ 
+
+3
+00:00:04,010 --> 00:00:06,309
+many people don't realize just how much
+we take advantage of the domain name
+
+4
+00:00:06,309 --> 00:00:06,319
+we take advantage of the domain name
+ 
+
+5
+00:00:06,319 --> 00:00:09,160
+we take advantage of the domain name
+system or DNS anytime you're converting
+
+6
+00:00:09,160 --> 00:00:09,170
+system or DNS anytime you're converting
+ 
+
+7
+00:00:09,170 --> 00:00:11,170
+system or DNS anytime you're converting
+from a human readable name like
+
+8
+00:00:11,170 --> 00:00:11,180
+from a human readable name like
+ 
+
+9
+00:00:11,180 --> 00:00:12,609
+from a human readable name like
+professormesser.com
+
+10
+00:00:12,609 --> 00:00:12,619
+professormesser.com
+ 
+
+11
+00:00:12,619 --> 00:00:15,250
+professormesser.com
+and accessing a website there has to be
+
+12
+00:00:15,250 --> 00:00:15,260
+and accessing a website there has to be
+ 
+
+13
+00:00:15,260 --> 00:00:18,640
+and accessing a website there has to be
+some conversion to IP addresses and it's
+
+14
+00:00:18,640 --> 00:00:18,650
+some conversion to IP addresses and it's
+ 
+
+15
+00:00:18,650 --> 00:00:20,800
+some conversion to IP addresses and it's
+the domain name system that provides
+
+16
+00:00:20,800 --> 00:00:20,810
+the domain name system that provides
+ 
+
+17
+00:00:20,810 --> 00:00:23,500
+the domain name system that provides
+that conversion process DNS is a
+
+18
+00:00:23,500 --> 00:00:23,510
+that conversion process DNS is a
+ 
+
+19
+00:00:23,510 --> 00:00:26,080
+that conversion process DNS is a
+hierarchical system which follows a very
+
+20
+00:00:26,080 --> 00:00:26,090
+hierarchical system which follows a very
+ 
+
+21
+00:00:26,090 --> 00:00:28,690
+hierarchical system which follows a very
+specific path to be able to find exactly
+
+22
+00:00:28,690 --> 00:00:28,700
+specific path to be able to find exactly
+ 
+
+23
+00:00:28,700 --> 00:00:31,060
+specific path to be able to find exactly
+the server you're trying to locate and
+
+24
+00:00:31,060 --> 00:00:31,070
+the server you're trying to locate and
+ 
+
+25
+00:00:31,070 --> 00:00:33,069
+the server you're trying to locate and
+it's a database that's very distributed
+
+26
+00:00:33,069 --> 00:00:33,079
+it's a database that's very distributed
+ 
+
+27
+00:00:33,079 --> 00:00:35,470
+it's a database that's very distributed
+there are many DNS servers around the
+
+28
+00:00:35,470 --> 00:00:35,480
+there are many DNS servers around the
+ 
+
+29
+00:00:35,480 --> 00:00:38,410
+there are many DNS servers around the
+world there are over 13 clusters of root
+
+30
+00:00:38,410 --> 00:00:38,420
+world there are over 13 clusters of root
+ 
+
+31
+00:00:38,420 --> 00:00:41,740
+world there are over 13 clusters of root
+servers at the core of DNS and you often
+
+32
+00:00:41,740 --> 00:00:41,750
+servers at the core of DNS and you often
+ 
+
+33
+00:00:41,750 --> 00:00:43,990
+servers at the core of DNS and you often
+find generic top-level domains like
+
+34
+00:00:43,990 --> 00:00:44,000
+find generic top-level domains like
+ 
+
+35
+00:00:44,000 --> 00:00:47,830
+find generic top-level domains like
+a.com or.net and they're also country
+
+36
+00:00:47,830 --> 00:00:47,840
+a.com or.net and they're also country
+ 
+
+37
+00:00:47,840 --> 00:00:50,920
+a.com or.net and they're also country
+code top-level domains for the US Canada
+
+38
+00:00:50,920 --> 00:00:50,930
+code top-level domains for the US Canada
+ 
+
+39
+00:00:50,930 --> 00:00:54,430
+code top-level domains for the US Canada
+UK and other countries here's an example
+
+40
+00:00:54,430 --> 00:00:54,440
+UK and other countries here's an example
+ 
+
+41
+00:00:54,440 --> 00:00:56,440
+UK and other countries here's an example
+of the hierarchy that's used with the
+
+42
+00:00:56,440 --> 00:00:56,450
+of the hierarchy that's used with the
+ 
+
+43
+00:00:56,450 --> 00:00:59,260
+of the hierarchy that's used with the
+DNS we very often will see a.com address
+
+44
+00:00:59,260 --> 00:00:59,270
+DNS we very often will see a.com address
+ 
+
+45
+00:00:59,270 --> 00:01:01,690
+DNS we very often will see a.com address
+or dotnet and that's the top-level
+
+46
+00:01:01,690 --> 00:01:01,700
+or dotnet and that's the top-level
+ 
+
+47
+00:01:01,700 --> 00:01:04,929
+or dotnet and that's the top-level
+domain of this hierarchy underneath com
+
+48
+00:01:04,929 --> 00:01:04,939
+domain of this hierarchy underneath com
+ 
+
+49
+00:01:04,939 --> 00:01:07,270
+domain of this hierarchy underneath com
+you might have another domain name such
+
+50
+00:01:07,270 --> 00:01:07,280
+you might have another domain name such
+ 
+
+51
+00:01:07,280 --> 00:01:09,099
+you might have another domain name such
+as professor Messer so you can put
+
+52
+00:01:09,099 --> 00:01:09,109
+as professor Messer so you can put
+ 
+
+53
+00:01:09,109 --> 00:01:11,919
+as professor Messer so you can put
+together professormesser.com of course
+
+54
+00:01:11,919 --> 00:01:11,929
+together professormesser.com of course
+ 
+
+55
+00:01:11,929 --> 00:01:13,929
+together professormesser.com of course
+at professor Messer there may be a web
+
+56
+00:01:13,929 --> 00:01:13,939
+at professor Messer there may be a web
+ 
+
+57
+00:01:13,939 --> 00:01:16,260
+at professor Messer there may be a web
+server and that web servers name may be
+
+58
+00:01:16,260 --> 00:01:16,270
+server and that web servers name may be
+ 
+
+59
+00:01:16,270 --> 00:01:18,999
+server and that web servers name may be
+www but there may also be a mail dot
+
+60
+00:01:18,999 --> 00:01:19,009
+www but there may also be a mail dot
+ 
+
+61
+00:01:19,009 --> 00:01:21,639
+www but there may also be a mail dot
+professor Messer comm and east dot
+
+62
+00:01:21,639 --> 00:01:21,649
+professor Messer comm and east dot
+ 
+
+63
+00:01:21,649 --> 00:01:23,739
+professor Messer comm and east dot
+professor Messer comm and a West dot
+
+64
+00:01:23,739 --> 00:01:23,749
+professor Messer comm and a West dot
+ 
+
+65
+00:01:23,749 --> 00:01:26,019
+professor Messer comm and a West dot
+professor Messer calm and you can have
+
+66
+00:01:26,019 --> 00:01:26,029
+professor Messer calm and you can have
+ 
+
+67
+00:01:26,029 --> 00:01:27,999
+professor Messer calm and you can have
+servers that were one level down from
+
+68
+00:01:27,999 --> 00:01:28,009
+servers that were one level down from
+ 
+
+69
+00:01:28,009 --> 00:01:30,370
+servers that were one level down from
+that so there may be an ethan dot West
+
+70
+00:01:30,370 --> 00:01:30,380
+that so there may be an ethan dot West
+ 
+
+71
+00:01:30,380 --> 00:01:33,629
+that so there may be an ethan dot West
+dot professor Messer calm and so on
+
+72
+00:01:33,629 --> 00:01:33,639
+dot professor Messer calm and so on
+ 
+
+73
+00:01:33,639 --> 00:01:36,129
+dot professor Messer calm and so on
+visually you can see how this domain
+
+74
+00:01:36,129 --> 00:01:36,139
+visually you can see how this domain
+ 
+
+75
+00:01:36,139 --> 00:01:37,899
+visually you can see how this domain
+name might work you have a fully
+
+76
+00:01:37,899 --> 00:01:37,909
+name might work you have a fully
+ 
+
+77
+00:01:37,909 --> 00:01:40,089
+name might work you have a fully
+qualified domain name that accompanies
+
+78
+00:01:40,089 --> 00:01:40,099
+qualified domain name that accompanies
+ 
+
+79
+00:01:40,099 --> 00:01:42,940
+qualified domain name that accompanies
+everything within professormesser.com
+
+80
+00:01:42,940 --> 00:01:42,950
+everything within professormesser.com
+ 
+
+81
+00:01:42,950 --> 00:01:44,620
+everything within professormesser.com
+and within there there may be the
+
+82
+00:01:44,620 --> 00:01:44,630
+and within there there may be the
+ 
+
+83
+00:01:44,630 --> 00:01:48,760
+and within there there may be the
+webserver 4ww professor Messer com we
+
+84
+00:01:48,760 --> 00:01:48,770
+webserver 4ww professor Messer com we
+ 
+
+85
+00:01:48,770 --> 00:01:50,679
+webserver 4ww professor Messer com we
+may break out these domains even further
+
+86
+00:01:50,679 --> 00:01:50,689
+may break out these domains even further
+ 
+
+87
+00:01:50,689 --> 00:01:53,949
+may break out these domains even further
+to have a West professormesser.com and
+
+88
+00:01:53,949 --> 00:01:53,959
+to have a West professormesser.com and
+ 
+
+89
+00:01:53,959 --> 00:01:56,050
+to have a West professormesser.com and
+an East dot professormesser.com and
+
+90
+00:01:56,050 --> 00:01:56,060
+an East dot professormesser.com and
+ 
+
+91
+00:01:56,060 --> 00:01:58,419
+an East dot professormesser.com and
+there may be servers that exist in these
+
+92
+00:01:58,419 --> 00:01:58,429
+there may be servers that exist in these
+ 
+
+93
+00:01:58,429 --> 00:02:00,279
+there may be servers that exist in these
+different regions and we can specify
+
+94
+00:02:00,279 --> 00:02:00,289
+different regions and we can specify
+ 
+
+95
+00:02:00,289 --> 00:02:02,649
+different regions and we can specify
+they're fully qualified domain name as
+
+96
+00:02:02,649 --> 00:02:02,659
+they're fully qualified domain name as
+ 
+
+97
+00:02:02,659 --> 00:02:05,949
+they're fully qualified domain name as
+Ethan dot West professormesser.com and
+
+98
+00:02:05,949 --> 00:02:05,959
+Ethan dot West professormesser.com and
+ 
+
+99
+00:02:05,959 --> 00:02:10,330
+Ethan dot West professormesser.com and
+Katy East professormesser.com we
+
+100
+00:02:10,330 --> 00:02:10,340
+Katy East professormesser.com we
+ 
+
+101
+00:02:10,340 --> 00:02:12,340
+Katy East professormesser.com we
+mentioned that DNS is a very distributed
+
+102
+00:02:12,340 --> 00:02:12,350
+mentioned that DNS is a very distributed
+ 
+
+103
+00:02:12,350 --> 00:02:14,590
+mentioned that DNS is a very distributed
+database and to be able to find all of
+
+104
+00:02:14,590 --> 00:02:14,600
+database and to be able to find all of
+ 
+
+105
+00:02:14,600 --> 00:02:15,190
+database and to be able to find all of
+those
+
+106
+00:02:15,190 --> 00:02:15,200
+those
+ 
+
+107
+00:02:15,200 --> 00:02:17,140
+those
+different services that are located as
+
+108
+00:02:17,140 --> 00:02:17,150
+different services that are located as
+ 
+
+109
+00:02:17,150 --> 00:02:19,960
+different services that are located as
+those fully qualified domain names we
+
+110
+00:02:19,960 --> 00:02:19,970
+those fully qualified domain names we
+ 
+
+111
+00:02:19,970 --> 00:02:21,820
+those fully qualified domain names we
+may need to ask a number of servers
+
+112
+00:02:21,820 --> 00:02:21,830
+may need to ask a number of servers
+ 
+
+113
+00:02:21,830 --> 00:02:24,160
+may need to ask a number of servers
+before we're able to fully resolve their
+
+114
+00:02:24,160 --> 00:02:24,170
+before we're able to fully resolve their
+ 
+
+115
+00:02:24,170 --> 00:02:26,500
+before we're able to fully resolve their
+IP addresses let's start with my laptop
+
+116
+00:02:26,500 --> 00:02:26,510
+IP addresses let's start with my laptop
+ 
+
+117
+00:02:26,510 --> 00:02:29,290
+IP addresses let's start with my laptop
+we refer to this device as a resolver
+
+118
+00:02:29,290 --> 00:02:29,300
+we refer to this device as a resolver
+ 
+
+119
+00:02:29,300 --> 00:02:30,880
+we refer to this device as a resolver
+this is a device that will for instance
+
+120
+00:02:30,880 --> 00:02:30,890
+this is a device that will for instance
+ 
+
+121
+00:02:30,890 --> 00:02:33,430
+this is a device that will for instance
+be trying to find the IP address that
+
+122
+00:02:33,430 --> 00:02:33,440
+be trying to find the IP address that
+ 
+
+123
+00:02:33,440 --> 00:02:35,640
+be trying to find the IP address that
+might be associated with the WW
+
+124
+00:02:35,640 --> 00:02:35,650
+might be associated with the WW
+ 
+
+125
+00:02:35,650 --> 00:02:38,620
+might be associated with the WW
+professormesser.com this device is
+
+126
+00:02:38,620 --> 00:02:38,630
+professormesser.com this device is
+ 
+
+127
+00:02:38,630 --> 00:02:41,410
+professormesser.com this device is
+configured for a local name server that
+
+128
+00:02:41,410 --> 00:02:41,420
+configured for a local name server that
+ 
+
+129
+00:02:41,420 --> 00:02:43,330
+configured for a local name server that
+it will reference this might be a local
+
+130
+00:02:43,330 --> 00:02:43,340
+it will reference this might be a local
+ 
+
+131
+00:02:43,340 --> 00:02:45,430
+it will reference this might be a local
+server that's within your organization
+
+132
+00:02:45,430 --> 00:02:45,440
+server that's within your organization
+ 
+
+133
+00:02:45,440 --> 00:02:47,530
+server that's within your organization
+or it might be a third-party name server
+
+134
+00:02:47,530 --> 00:02:47,540
+or it might be a third-party name server
+ 
+
+135
+00:02:47,540 --> 00:02:49,449
+or it might be a third-party name server
+that you're using this resolver will
+
+136
+00:02:49,449 --> 00:02:49,459
+that you're using this resolver will
+ 
+
+137
+00:02:49,459 --> 00:02:52,210
+that you're using this resolver will
+query that name server to ask where is
+
+138
+00:02:52,210 --> 00:02:52,220
+query that name server to ask where is
+ 
+
+139
+00:02:52,220 --> 00:02:56,350
+query that name server to ask where is
+the IP address 4ww professormesser.com
+
+140
+00:02:56,350 --> 00:02:56,360
+the IP address 4ww professormesser.com
+ 
+
+141
+00:02:56,360 --> 00:02:58,509
+the IP address 4ww professormesser.com
+the first request we made from the
+
+142
+00:02:58,509 --> 00:02:58,519
+the first request we made from the
+ 
+
+143
+00:02:58,519 --> 00:03:01,089
+the first request we made from the
+resolver to the local name server asking
+
+144
+00:03:01,089 --> 00:03:01,099
+resolver to the local name server asking
+ 
+
+145
+00:03:01,099 --> 00:03:03,789
+resolver to the local name server asking
+if this particular device knows where WW
+
+146
+00:03:03,789 --> 00:03:03,799
+if this particular device knows where WW
+ 
+
+147
+00:03:03,799 --> 00:03:06,880
+if this particular device knows where WW
+professormesser.com happens to be this
+
+148
+00:03:06,880 --> 00:03:06,890
+professormesser.com happens to be this
+ 
+
+149
+00:03:06,890 --> 00:03:09,009
+professormesser.com happens to be this
+local name server does not have this IP
+
+150
+00:03:09,009 --> 00:03:09,019
+local name server does not have this IP
+ 
+
+151
+00:03:09,019 --> 00:03:11,170
+local name server does not have this IP
+address in its cache so it needs to
+
+152
+00:03:11,170 --> 00:03:11,180
+address in its cache so it needs to
+ 
+
+153
+00:03:11,180 --> 00:03:13,630
+address in its cache so it needs to
+start asking other name servers where it
+
+154
+00:03:13,630 --> 00:03:13,640
+start asking other name servers where it
+ 
+
+155
+00:03:13,640 --> 00:03:15,870
+start asking other name servers where it
+can go to find the WW
+
+156
+00:03:15,870 --> 00:03:15,880
+can go to find the WW
+ 
+
+157
+00:03:15,880 --> 00:03:19,660
+can go to find the WW
+professormesser.com IP address its first
+
+158
+00:03:19,660 --> 00:03:19,670
+professormesser.com IP address its first
+ 
+
+159
+00:03:19,670 --> 00:03:21,729
+professormesser.com IP address its first
+step is going to be talking to this root
+
+160
+00:03:21,729 --> 00:03:21,739
+step is going to be talking to this root
+ 
+
+161
+00:03:21,739 --> 00:03:23,620
+step is going to be talking to this root
+server the root server is going to
+
+162
+00:03:23,620 --> 00:03:23,630
+server the root server is going to
+ 
+
+163
+00:03:23,630 --> 00:03:25,660
+server the root server is going to
+respond back and say if you're looking
+
+164
+00:03:25,660 --> 00:03:25,670
+respond back and say if you're looking
+ 
+
+165
+00:03:25,670 --> 00:03:28,180
+respond back and say if you're looking
+for anything with a.com you need to go
+
+166
+00:03:28,180 --> 00:03:28,190
+for anything with a.com you need to go
+ 
+
+167
+00:03:28,190 --> 00:03:30,849
+for anything with a.com you need to go
+to the dot-com name server so the next
+
+168
+00:03:30,849 --> 00:03:30,859
+to the dot-com name server so the next
+ 
+
+169
+00:03:30,859 --> 00:03:32,979
+to the dot-com name server so the next
+step will be the local name server will
+
+170
+00:03:32,979 --> 00:03:32,989
+step will be the local name server will
+ 
+
+171
+00:03:32,989 --> 00:03:36,039
+step will be the local name server will
+talk to the dot-com DNS server this
+
+172
+00:03:36,039 --> 00:03:36,049
+talk to the dot-com DNS server this
+ 
+
+173
+00:03:36,049 --> 00:03:38,170
+talk to the dot-com DNS server this
+server will have a list of where my
+
+174
+00:03:38,170 --> 00:03:38,180
+server will have a list of where my
+ 
+
+175
+00:03:38,180 --> 00:03:39,970
+server will have a list of where my
+local DNS server is for
+
+176
+00:03:39,970 --> 00:03:39,980
+local DNS server is for
+ 
+
+177
+00:03:39,980 --> 00:03:42,610
+local DNS server is for
+professormesser.com and it will provide
+
+178
+00:03:42,610 --> 00:03:42,620
+professormesser.com and it will provide
+ 
+
+179
+00:03:42,620 --> 00:03:44,740
+professormesser.com and it will provide
+that information to the local name
+
+180
+00:03:44,740 --> 00:03:44,750
+that information to the local name
+ 
+
+181
+00:03:44,750 --> 00:03:47,259
+that information to the local name
+server the local name server will then
+
+182
+00:03:47,259 --> 00:03:47,269
+server the local name server will then
+ 
+
+183
+00:03:47,269 --> 00:03:49,930
+server the local name server will then
+query the professormesser.com name
+
+184
+00:03:49,930 --> 00:03:49,940
+query the professormesser.com name
+ 
+
+185
+00:03:49,940 --> 00:03:52,449
+query the professormesser.com name
+server which obviously will have the IP
+
+186
+00:03:52,449 --> 00:03:52,459
+server which obviously will have the IP
+ 
+
+187
+00:03:52,459 --> 00:03:54,940
+server which obviously will have the IP
+address associated with WW
+
+188
+00:03:54,940 --> 00:03:54,950
+address associated with WW
+ 
+
+189
+00:03:54,950 --> 00:03:56,590
+address associated with WW
+professormesser.com
+
+190
+00:03:56,590 --> 00:03:56,600
+professormesser.com
+ 
+
+191
+00:03:56,600 --> 00:03:58,750
+professormesser.com
+and that information is provided to the
+
+192
+00:03:58,750 --> 00:03:58,760
+and that information is provided to the
+ 
+
+193
+00:03:58,760 --> 00:04:01,360
+and that information is provided to the
+local name server at this point the
+
+194
+00:04:01,360 --> 00:04:01,370
+local name server at this point the
+ 
+
+195
+00:04:01,370 --> 00:04:03,490
+local name server at this point the
+local name server will let the resolver
+
+196
+00:04:03,490 --> 00:04:03,500
+local name server will let the resolver
+ 
+
+197
+00:04:03,500 --> 00:04:05,530
+local name server will let the resolver
+know what that IP address happens to be
+
+198
+00:04:05,530 --> 00:04:05,540
+know what that IP address happens to be
+ 
+
+199
+00:04:05,540 --> 00:04:07,780
+know what that IP address happens to be
+and it will store that information in a
+
+200
+00:04:07,780 --> 00:04:07,790
+and it will store that information in a
+ 
+
+201
+00:04:07,790 --> 00:04:10,150
+and it will store that information in a
+cache if anyone else that uses this
+
+202
+00:04:10,150 --> 00:04:10,160
+cache if anyone else that uses this
+ 
+
+203
+00:04:10,160 --> 00:04:12,210
+cache if anyone else that uses this
+local name server then needs to access
+
+204
+00:04:12,210 --> 00:04:12,220
+local name server then needs to access
+ 
+
+205
+00:04:12,220 --> 00:04:15,339
+local name server then needs to access
+WWE professormesser.com they can get
+
+206
+00:04:15,339 --> 00:04:15,349
+WWE professormesser.com they can get
+ 
+
+207
+00:04:15,349 --> 00:04:16,930
+WWE professormesser.com they can get
+that information from the local cache
+
+208
+00:04:16,930 --> 00:04:16,940
+that information from the local cache
+ 
+
+209
+00:04:16,940 --> 00:04:18,789
+that information from the local cache
+rather than going through all of these
+
+210
+00:04:18,789 --> 00:04:18,799
+rather than going through all of these
+ 
+
+211
+00:04:18,799 --> 00:04:20,490
+rather than going through all of these
+queries all over again
+
+212
+00:04:20,490 --> 00:04:20,500
+queries all over again
+ 
+
+213
+00:04:20,500 --> 00:04:23,230
+queries all over again
+many organizations will maintain an
+
+214
+00:04:23,230 --> 00:04:23,240
+many organizations will maintain an
+ 
+
+215
+00:04:23,240 --> 00:04:25,420
+many organizations will maintain an
+internal DNS that's because there are
+
+216
+00:04:25,420 --> 00:04:25,430
+internal DNS that's because there are
+ 
+
+217
+00:04:25,430 --> 00:04:27,520
+internal DNS that's because there are
+internal servers that you need to have
+
+218
+00:04:27,520 --> 00:04:27,530
+internal servers that you need to have
+ 
+
+219
+00:04:27,530 --> 00:04:28,930
+internal servers that you need to have
+some type of reference to
+
+220
+00:04:28,930 --> 00:04:28,940
+some type of reference to
+ 
+
+221
+00:04:28,940 --> 00:04:31,120
+some type of reference to
+that you may not want to make public on
+
+222
+00:04:31,120 --> 00:04:31,130
+that you may not want to make public on
+ 
+
+223
+00:04:31,130 --> 00:04:34,240
+that you may not want to make public on
+an external DNS server these internal
+
+224
+00:04:34,240 --> 00:04:34,250
+an external DNS server these internal
+ 
+
+225
+00:04:34,250 --> 00:04:36,400
+an external DNS server these internal
+DNS azar usually installed and
+
+226
+00:04:36,400 --> 00:04:36,410
+DNS azar usually installed and
+ 
+
+227
+00:04:36,410 --> 00:04:38,170
+DNS azar usually installed and
+maintained by your local network team
+
+228
+00:04:38,170 --> 00:04:38,180
+maintained by your local network team
+ 
+
+229
+00:04:38,180 --> 00:04:40,000
+maintained by your local network team
+and it usually is going to have your
+
+230
+00:04:40,000 --> 00:04:40,010
+and it usually is going to have your
+ 
+
+231
+00:04:40,010 --> 00:04:41,950
+and it usually is going to have your
+internal information that no one else
+
+232
+00:04:41,950 --> 00:04:41,960
+internal information that no one else
+ 
+
+233
+00:04:41,960 --> 00:04:44,080
+internal information that no one else
+should have access to it's very common
+
+234
+00:04:44,080 --> 00:04:44,090
+should have access to it's very common
+ 
+
+235
+00:04:44,090 --> 00:04:46,480
+should have access to it's very common
+for example to run a DNS service on a
+
+236
+00:04:46,480 --> 00:04:46,490
+for example to run a DNS service on a
+ 
+
+237
+00:04:46,490 --> 00:04:48,700
+for example to run a DNS service on a
+Windows server so that you are able to
+
+238
+00:04:48,700 --> 00:04:48,710
+Windows server so that you are able to
+ 
+
+239
+00:04:48,710 --> 00:04:49,930
+Windows server so that you are able to
+keep up with all of the different
+
+240
+00:04:49,930 --> 00:04:49,940
+keep up with all of the different
+ 
+
+241
+00:04:49,940 --> 00:04:52,360
+keep up with all of the different
+windows devices on your internal private
+
+242
+00:04:52,360 --> 00:04:52,370
+windows devices on your internal private
+ 
+
+243
+00:04:52,370 --> 00:04:55,030
+windows devices on your internal private
+network if you're an organization that
+
+244
+00:04:55,030 --> 00:04:55,040
+network if you're an organization that
+ 
+
+245
+00:04:55,040 --> 00:04:57,730
+network if you're an organization that
+doesn't need an internal DNS server you
+
+246
+00:04:57,730 --> 00:04:57,740
+doesn't need an internal DNS server you
+ 
+
+247
+00:04:57,740 --> 00:05:00,190
+doesn't need an internal DNS server you
+might want to use an external DNS good
+
+248
+00:05:00,190 --> 00:05:00,200
+might want to use an external DNS good
+ 
+
+249
+00:05:00,200 --> 00:05:02,470
+might want to use an external DNS good
+example are the ones that are managed by
+
+250
+00:05:02,470 --> 00:05:02,480
+example are the ones that are managed by
+ 
+
+251
+00:05:02,480 --> 00:05:05,080
+example are the ones that are managed by
+Google on their Google DNS or quad 9
+
+252
+00:05:05,080 --> 00:05:05,090
+Google on their Google DNS or quad 9
+ 
+
+253
+00:05:05,090 --> 00:05:07,390
+Google on their Google DNS or quad 9
+these external DNS ah's will obviously
+
+254
+00:05:07,390 --> 00:05:07,400
+these external DNS ah's will obviously
+ 
+
+255
+00:05:07,400 --> 00:05:09,310
+these external DNS ah's will obviously
+not have any information about any
+
+256
+00:05:09,310 --> 00:05:09,320
+not have any information about any
+ 
+
+257
+00:05:09,320 --> 00:05:12,040
+not have any information about any
+internal devices but you're able to use
+
+258
+00:05:12,040 --> 00:05:12,050
+internal devices but you're able to use
+ 
+
+259
+00:05:12,050 --> 00:05:14,350
+internal devices but you're able to use
+and maintain those external resources
+
+260
+00:05:14,350 --> 00:05:14,360
+and maintain those external resources
+ 
+
+261
+00:05:14,360 --> 00:05:16,230
+and maintain those external resources
+without having to run your own server
+
+262
+00:05:16,230 --> 00:05:16,240
+without having to run your own server
+ 
+
+263
+00:05:16,240 --> 00:05:19,270
+without having to run your own server
+internally in your organization there's
+
+264
+00:05:19,270 --> 00:05:19,280
+internally in your organization there's
+ 
+
+265
+00:05:19,280 --> 00:05:21,520
+internally in your organization there's
+also a middle ground where you can have
+
+266
+00:05:21,520 --> 00:05:21,530
+also a middle ground where you can have
+ 
+
+267
+00:05:21,530 --> 00:05:23,860
+also a middle ground where you can have
+a third party providing you with your
+
+268
+00:05:23,860 --> 00:05:23,870
+a third party providing you with your
+ 
+
+269
+00:05:23,870 --> 00:05:27,220
+a third party providing you with your
+own internal DNS services especially if
+
+270
+00:05:27,220 --> 00:05:27,230
+own internal DNS services especially if
+ 
+
+271
+00:05:27,230 --> 00:05:29,200
+own internal DNS services especially if
+you're in a very large environment you
+
+272
+00:05:29,200 --> 00:05:29,210
+you're in a very large environment you
+ 
+
+273
+00:05:29,210 --> 00:05:31,270
+you're in a very large environment you
+may be having to manage many many
+
+274
+00:05:31,270 --> 00:05:31,280
+may be having to manage many many
+ 
+
+275
+00:05:31,280 --> 00:05:33,370
+may be having to manage many many
+different DNS servers and instead of you
+
+276
+00:05:33,370 --> 00:05:33,380
+different DNS servers and instead of you
+ 
+
+277
+00:05:33,380 --> 00:05:35,260
+different DNS servers and instead of you
+managing that you might want to hand
+
+278
+00:05:35,260 --> 00:05:35,270
+managing that you might want to hand
+ 
+
+279
+00:05:35,270 --> 00:05:37,090
+managing that you might want to hand
+that off to a third party where you've
+
+280
+00:05:37,090 --> 00:05:37,100
+that off to a third party where you've
+ 
+
+281
+00:05:37,100 --> 00:05:40,030
+that off to a third party where you've
+outsourced your internal DNS function to
+
+282
+00:05:40,030 --> 00:05:40,040
+outsourced your internal DNS function to
+ 
+
+283
+00:05:40,040 --> 00:05:42,160
+outsourced your internal DNS function to
+this third party all of these DNS
+
+284
+00:05:42,160 --> 00:05:42,170
+this third party all of these DNS
+ 
+
+285
+00:05:42,170 --> 00:05:43,690
+this third party all of these DNS
+servers are running in the cloud you
+
+286
+00:05:43,690 --> 00:05:43,700
+servers are running in the cloud you
+ 
+
+287
+00:05:43,700 --> 00:05:45,460
+servers are running in the cloud you
+might have multiple instances of them
+
+288
+00:05:45,460 --> 00:05:45,470
+might have multiple instances of them
+ 
+
+289
+00:05:45,470 --> 00:05:47,740
+might have multiple instances of them
+available around the world and it would
+
+290
+00:05:47,740 --> 00:05:47,750
+available around the world and it would
+ 
+
+291
+00:05:47,750 --> 00:05:49,900
+available around the world and it would
+still provide you with the same internal
+
+292
+00:05:49,900 --> 00:05:49,910
+still provide you with the same internal
+ 
+
+293
+00:05:49,910 --> 00:05:52,120
+still provide you with the same internal
+functionality except you're using a
+
+294
+00:05:52,120 --> 00:05:52,130
+functionality except you're using a
+ 
+
+295
+00:05:52,130 --> 00:05:54,430
+functionality except you're using a
+cloud-based service external to your
+
+296
+00:05:54,430 --> 00:05:54,440
+cloud-based service external to your
+ 
+
+297
+00:05:54,440 --> 00:05:57,100
+cloud-based service external to your
+organization this also might provide you
+
+298
+00:05:57,100 --> 00:05:57,110
+organization this also might provide you
+ 
+
+299
+00:05:57,110 --> 00:05:58,750
+organization this also might provide you
+with some capabilities you normally
+
+300
+00:05:58,750 --> 00:05:58,760
+with some capabilities you normally
+ 
+
+301
+00:05:58,760 --> 00:06:00,280
+with some capabilities you normally
+wouldn't have if you were maintaining
+
+302
+00:06:00,280 --> 00:06:00,290
+wouldn't have if you were maintaining
+ 
+
+303
+00:06:00,290 --> 00:06:02,230
+wouldn't have if you were maintaining
+your own servers you may have high
+
+304
+00:06:02,230 --> 00:06:02,240
+your own servers you may have high
+ 
+
+305
+00:06:02,240 --> 00:06:04,360
+your own servers you may have high
+availability to have these DNS services
+
+306
+00:06:04,360 --> 00:06:04,370
+availability to have these DNS services
+ 
+
+307
+00:06:04,370 --> 00:06:06,940
+availability to have these DNS services
+available all the time they may be low
+
+308
+00:06:06,940 --> 00:06:06,950
+available all the time they may be low
+ 
+
+309
+00:06:06,950 --> 00:06:09,010
+available all the time they may be low
+latency servers providing very fast
+
+310
+00:06:09,010 --> 00:06:09,020
+latency servers providing very fast
+ 
+
+311
+00:06:09,020 --> 00:06:11,080
+latency servers providing very fast
+response time and if you need additional
+
+312
+00:06:11,080 --> 00:06:11,090
+response time and if you need additional
+ 
+
+313
+00:06:11,090 --> 00:06:13,690
+response time and if you need additional
+servers spun up you simply request that
+
+314
+00:06:13,690 --> 00:06:13,700
+servers spun up you simply request that
+ 
+
+315
+00:06:13,700 --> 00:06:15,910
+servers spun up you simply request that
+from the third-party DNS and you're able
+
+316
+00:06:15,910 --> 00:06:15,920
+from the third-party DNS and you're able
+ 
+
+317
+00:06:15,920 --> 00:06:25,850
+from the third-party DNS and you're able
+to scale up and scale down as needed
+
+318
+00:06:25,850 --> 00:06:25,860
+
+ 
+
+319
+00:06:25,860 --> 00:06:27,919
+
+you
+
