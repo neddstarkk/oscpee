@@ -1,0 +1,1235 @@
+1
+00:00:02,130 --> 00:00:05,280
+If you're an early user of
+Ethernet over twisted pair
+
+2
+00:00:05,280 --> 00:00:08,550
+cabling, then you are probably
+connecting all of your devices
+
+3
+00:00:08,550 --> 00:00:09,840
+with a hub.
+
+4
+00:00:09,840 --> 00:00:13,500
+You'll often hear a hub referred
+to as a multi port repeater.
+
+5
+00:00:13,500 --> 00:00:15,750
+That's because the
+operation of a hub
+
+6
+00:00:15,750 --> 00:00:17,880
+means that any
+traffic going into one
+
+7
+00:00:17,880 --> 00:00:20,670
+of these single ports of
+the hub will automatically
+
+8
+00:00:20,670 --> 00:00:23,340
+be regenerated out of
+every other port that
+
+9
+00:00:23,340 --> 00:00:25,260
+happens to be on that hub.
+
+10
+00:00:25,260 --> 00:00:27,750
+This makes for a very
+simple forwarding mechanism.
+
+11
+00:00:27,750 --> 00:00:30,270
+If traffic goes into
+the hub, it comes out
+
+12
+00:00:30,270 --> 00:00:32,970
+of the hub on every
+other interface.
+
+13
+00:00:32,970 --> 00:00:34,680
+Since there are no
+forwarding decisions
+
+14
+00:00:34,680 --> 00:00:36,570
+to be made inside
+of a hub, we often
+
+15
+00:00:36,570 --> 00:00:40,560
+say that this is a device
+that's operating at OSI layer 1.
+
+16
+00:00:40,560 --> 00:00:42,660
+Because all devices
+are effectively
+
+17
+00:00:42,660 --> 00:00:45,720
+sharing this network, that
+means that you can't really
+
+18
+00:00:45,720 --> 00:00:48,780
+have a full duplex connection
+to any other device
+
+19
+00:00:48,780 --> 00:00:49,890
+on this network.
+
+20
+00:00:49,890 --> 00:00:51,990
+All devices connected
+to a hub are
+
+21
+00:00:51,990 --> 00:00:55,350
+going to be running at
+half duplex by default.
+
+22
+00:00:55,350 --> 00:00:58,680
+This also means that if more
+devices begin communicating
+
+23
+00:00:58,680 --> 00:01:01,980
+more often, there will be an
+increasing number of collisions
+
+24
+00:01:01,980 --> 00:01:05,160
+on this half duplex network,
+which means the more traffic
+
+25
+00:01:05,160 --> 00:01:08,860
+increases, the less efficient
+this network will be.
+
+26
+00:01:08,860 --> 00:01:11,010
+If you're using a
+gigabit Ethernet network,
+
+27
+00:01:11,010 --> 00:01:13,590
+then you're not
+communicating using a hub.
+
+28
+00:01:13,590 --> 00:01:15,210
+Hubs are only
+available if you're
+
+29
+00:01:15,210 --> 00:01:19,620
+running 10 megabit Ethernet
+or 100 megabit Ethernet.
+
+30
+00:01:19,620 --> 00:01:22,320
+As you can tell, the
+technology behind the hub
+
+31
+00:01:22,320 --> 00:01:23,810
+is very simplistic.
+
+32
+00:01:23,810 --> 00:01:26,850
+It's not really designed for
+today's high speed networks.
+
+33
+00:01:26,850 --> 00:01:29,700
+Hubs are no longer manufactured,
+and it's even difficult
+
+34
+00:01:29,700 --> 00:01:33,610
+to find them these days
+on the secondary markets.
+
+35
+00:01:33,610 --> 00:01:36,850
+Imagine if you had a switch
+that only had two ports on it.
+
+36
+00:01:36,850 --> 00:01:39,080
+You had a network on
+one side of the switch
+
+37
+00:01:39,080 --> 00:01:41,530
+and you had a network on the
+other side of the switch.
+
+38
+00:01:41,530 --> 00:01:45,020
+In the early days of networking,
+you would have a bridge.
+
+39
+00:01:45,020 --> 00:01:47,800
+A bridge is making forwarding
+decisions in software
+
+40
+00:01:47,800 --> 00:01:49,540
+based on the MAC
+addresses of what
+
+41
+00:01:49,540 --> 00:01:52,660
+happens to be on both
+sides of that bridge.
+
+42
+00:01:52,660 --> 00:01:54,760
+We would commonly use
+these bridges to connect
+
+43
+00:01:54,760 --> 00:01:56,846
+two separate physical networks.
+
+44
+00:01:56,846 --> 00:01:58,720
+These networks could be
+different typologies.
+
+45
+00:01:58,720 --> 00:02:01,290
+So we might be connecting
+an Ethernet network
+
+46
+00:02:01,290 --> 00:02:04,390
+to a token ring network by
+putting a bridge in the middle.
+
+47
+00:02:04,390 --> 00:02:06,310
+But we might also
+use these bridges
+
+48
+00:02:06,310 --> 00:02:08,169
+to connect similar typologies.
+
+49
+00:02:08,169 --> 00:02:10,539
+You could take a very
+large Ethernet network
+
+50
+00:02:10,539 --> 00:02:13,090
+and split it into two
+pieces to minimize
+
+51
+00:02:13,090 --> 00:02:15,970
+the number of collisions
+that might be occurring.
+
+52
+00:02:15,970 --> 00:02:17,900
+Just like today's
+modern switches,
+
+53
+00:02:17,900 --> 00:02:20,830
+these older style bridges
+would make forwarding decisions
+
+54
+00:02:20,830 --> 00:02:24,580
+based on the destination MAC
+address inside of a frame.
+
+55
+00:02:24,580 --> 00:02:26,350
+A good example of
+a modern bridge
+
+56
+00:02:26,350 --> 00:02:29,020
+that would be connecting
+different types of networks
+
+57
+00:02:29,020 --> 00:02:31,450
+would be today's
+wireless access points.
+
+58
+00:02:31,450 --> 00:02:33,160
+You would have a
+wireless network
+
+59
+00:02:33,160 --> 00:02:36,700
+on one side of this access
+point and a wired Ethernet
+
+60
+00:02:36,700 --> 00:02:38,020
+network on the other.
+
+61
+00:02:38,020 --> 00:02:42,090
+And you're bridging between
+these two different typologies.
+
+62
+00:02:42,090 --> 00:02:45,640
+Our modern switches are an
+evolution from the older style
+
+63
+00:02:45,640 --> 00:02:46,510
+bridges.
+
+64
+00:02:46,510 --> 00:02:49,480
+Now we have devices with
+hundreds of interfaces
+
+65
+00:02:49,480 --> 00:02:52,330
+on the front, rather than
+two or four that you might
+
+66
+00:02:52,330 --> 00:02:54,280
+have on a traditional bridge.
+
+67
+00:02:54,280 --> 00:02:56,920
+Also, a traditional bridge was
+making all of its forwarding
+
+68
+00:02:56,920 --> 00:02:58,630
+decisions in software.
+
+69
+00:02:58,630 --> 00:03:01,780
+On today's switches, we are
+making all of these decisions
+
+70
+00:03:01,780 --> 00:03:04,150
+in the hardware of
+these device using
+
+71
+00:03:04,150 --> 00:03:08,170
+a technology known as ASICs, or
+Application Specific Integrated
+
+72
+00:03:08,170 --> 00:03:09,400
+Circuits.
+
+73
+00:03:09,400 --> 00:03:11,710
+The forwarding decisions
+on our modern switches
+
+74
+00:03:11,710 --> 00:03:13,870
+are exactly the same as
+the forwarding decisions
+
+75
+00:03:13,870 --> 00:03:16,120
+that were made on the
+older style bridges.
+
+76
+00:03:16,120 --> 00:03:18,490
+We're looking at the
+destination MAC address
+
+77
+00:03:18,490 --> 00:03:20,560
+and we're forwarding the
+frame depending on where
+
+78
+00:03:20,560 --> 00:03:23,020
+that MAC address needs to go.
+
+79
+00:03:23,020 --> 00:03:26,620
+Our modern switches also have
+a number of additional features
+
+80
+00:03:26,620 --> 00:03:27,670
+available to them.
+
+81
+00:03:27,670 --> 00:03:30,100
+One good example is
+power over Ethernet,
+
+82
+00:03:30,100 --> 00:03:32,890
+where you could plug in a
+device that requires power,
+
+83
+00:03:32,890 --> 00:03:34,570
+and it can receive
+power directly
+
+84
+00:03:34,570 --> 00:03:36,700
+from your network switch.
+
+85
+00:03:36,700 --> 00:03:39,070
+Some switches might
+also include the option
+
+86
+00:03:39,070 --> 00:03:42,280
+to enable a routing
+functionality within exactly
+
+87
+00:03:42,280 --> 00:03:43,480
+the same chassis.
+
+88
+00:03:43,480 --> 00:03:46,090
+We call this functionality
+multi-layer switching.
+
+89
+00:03:46,090 --> 00:03:49,300
+You might hear it referred
+to as a Layer 3 switch.
+
+90
+00:03:49,300 --> 00:03:51,490
+That's because there's a
+portion of the switch that
+
+91
+00:03:51,490 --> 00:03:54,440
+is performing the normal
+Layer 2 switching function.
+
+92
+00:03:54,440 --> 00:03:56,440
+And there's another portion
+of the switch that's
+
+93
+00:03:56,440 --> 00:03:58,930
+able to route between
+the different VLANs that
+
+94
+00:03:58,930 --> 00:04:01,620
+are connected to that switch.
+
+95
+00:04:01,620 --> 00:04:03,390
+If a device is a
+router, then it's
+
+96
+00:04:03,390 --> 00:04:06,540
+forwarding traffic between
+different IP subnets.
+
+97
+00:04:06,540 --> 00:04:08,310
+And it's making its
+forwarding decisions
+
+98
+00:04:08,310 --> 00:04:10,590
+based on the destination
+IP address that
+
+99
+00:04:10,590 --> 00:04:12,900
+might be in that IP packet.
+
+100
+00:04:12,900 --> 00:04:15,330
+If it's a switch, then we're
+making forwarding decisions
+
+101
+00:04:15,330 --> 00:04:17,230
+based on a MAC address.
+
+102
+00:04:17,230 --> 00:04:20,550
+That's why we refer to
+routers as Layer 3 devices
+
+103
+00:04:20,550 --> 00:04:23,130
+and switches as Layer 2 devices.
+
+104
+00:04:23,130 --> 00:04:25,410
+Routers will often
+connect different types
+
+105
+00:04:25,410 --> 00:04:26,820
+of network typologies.
+
+106
+00:04:26,820 --> 00:04:29,310
+On one side, you might
+have an Ethernet network
+
+107
+00:04:29,310 --> 00:04:30,600
+running over fiber.
+
+108
+00:04:30,600 --> 00:04:32,100
+And on the other
+side of the router,
+
+109
+00:04:32,100 --> 00:04:35,835
+it might be a wide area network
+that's running over copper.
+
+110
+00:04:35,835 --> 00:04:38,060
+You generally don't
+connect to any network
+
+111
+00:04:38,060 --> 00:04:40,850
+these days without
+a firewall in place.
+
+112
+00:04:40,850 --> 00:04:43,520
+Firewalls make decisions
+about whether traffic
+
+113
+00:04:43,520 --> 00:04:46,310
+is allowed or not allowed
+through the network based
+
+114
+00:04:46,310 --> 00:04:48,180
+on Layer 4 information.
+
+115
+00:04:48,180 --> 00:04:51,500
+This might be a TCP
+or UDP port number.
+
+116
+00:04:51,500 --> 00:04:54,170
+Modern firewalls
+take that even higher
+
+117
+00:04:54,170 --> 00:04:56,240
+and can look into the
+application that's
+
+118
+00:04:56,240 --> 00:04:58,790
+going across the network
+and make decisions on
+
+119
+00:04:58,790 --> 00:05:01,520
+whether certain applications
+are allowed or not.
+
+120
+00:05:01,520 --> 00:05:04,700
+We often refer to those
+as Layer 7 firewalls,
+
+121
+00:05:04,700 --> 00:05:07,340
+or next generation firewalls.
+
+122
+00:05:07,340 --> 00:05:10,040
+Many firewalls also
+provide other features.
+
+123
+00:05:10,040 --> 00:05:13,100
+You could configure your
+firewall as a VPN endpoint
+
+124
+00:05:13,100 --> 00:05:15,290
+at your main location,
+and configure
+
+125
+00:05:15,290 --> 00:05:18,830
+another firewall as a VPN
+endpoint at a remote site.
+
+126
+00:05:18,830 --> 00:05:20,360
+That will allow
+you to encrypt all
+
+127
+00:05:20,360 --> 00:05:23,310
+of the traffic that flows
+between the main location
+
+128
+00:05:23,310 --> 00:05:25,520
+and any of your remote sites.
+
+129
+00:05:25,520 --> 00:05:28,160
+Some firewalls can be
+configured as a proxy.
+
+130
+00:05:28,160 --> 00:05:30,350
+So they'll stop the
+network communication,
+
+131
+00:05:30,350 --> 00:05:33,900
+make the request on your
+behalf, receive the response,
+
+132
+00:05:33,900 --> 00:05:36,680
+make sure the response is
+appropriate for you to receive,
+
+133
+00:05:36,680 --> 00:05:39,800
+and then send that traffic
+down to your workstation.
+
+134
+00:05:39,800 --> 00:05:43,400
+Many firewalls can also be
+configured as a Layer 3 device.
+
+135
+00:05:43,400 --> 00:05:45,650
+So they can route all
+of the traffic going
+
+136
+00:05:45,650 --> 00:05:47,360
+in and out of the internet.
+
+137
+00:05:47,360 --> 00:05:50,090
+So not only are they
+making security decisions
+
+138
+00:05:50,090 --> 00:05:54,230
+based on Layer 4 UDP/TCP
+port numbers or Layer 7
+
+139
+00:05:54,230 --> 00:05:56,540
+applications, but
+they can also act
+
+140
+00:05:56,540 --> 00:06:01,020
+as a router to send traffic
+between different IP subnets.
+
+141
+00:06:01,020 --> 00:06:02,520
+In many enterprise
+networks, we'd
+
+142
+00:06:02,520 --> 00:06:05,790
+use wireless access points
+to be able to connect people
+
+143
+00:06:05,790 --> 00:06:07,510
+to a wireless network.
+
+144
+00:06:07,510 --> 00:06:09,450
+This is a little different
+than the wireless
+
+145
+00:06:09,450 --> 00:06:12,090
+router you might have
+in a home office that
+
+146
+00:06:12,090 --> 00:06:15,270
+has the router, the
+switch, the wireless access
+
+147
+00:06:15,270 --> 00:06:18,420
+point, the firewall, and some
+other components within it
+
+148
+00:06:18,420 --> 00:06:19,360
+as well.
+
+149
+00:06:19,360 --> 00:06:22,200
+If you were able to pull
+out just the wireless piece,
+
+150
+00:06:22,200 --> 00:06:25,050
+you would have a
+wireless access point.
+
+151
+00:06:25,050 --> 00:06:27,840
+As we mentioned earlier,
+a wireless access point
+
+152
+00:06:27,840 --> 00:06:29,160
+is a Layer 2 device.
+
+153
+00:06:29,160 --> 00:06:32,430
+It's effectively a bridge
+between a wireless network
+
+154
+00:06:32,430 --> 00:06:34,020
+and an Ethernet network.
+
+155
+00:06:34,020 --> 00:06:37,440
+Many organizations will deploy
+many wireless access points
+
+156
+00:06:37,440 --> 00:06:39,480
+throughout multiple
+floors of a building
+
+157
+00:06:39,480 --> 00:06:41,220
+so that you can
+always be connected
+
+158
+00:06:41,220 --> 00:06:43,750
+to the wireless network.
+
+159
+00:06:43,750 --> 00:06:46,260
+The device we call
+a modem is named
+
+160
+00:06:46,260 --> 00:06:50,340
+after the modulator/demodulator
+function that is happening
+
+161
+00:06:50,340 --> 00:06:52,180
+inside of this device.
+
+162
+00:06:52,180 --> 00:06:54,450
+It's very common to have
+modems, for example,
+
+163
+00:06:54,450 --> 00:06:56,400
+on traditional phone lines.
+
+164
+00:06:56,400 --> 00:06:59,520
+If devices in two locations
+needed to communicate,
+
+165
+00:06:59,520 --> 00:07:01,710
+they could put a
+modem on each side
+
+166
+00:07:01,710 --> 00:07:04,590
+and communicate over
+traditional phone lines.
+
+167
+00:07:04,590 --> 00:07:07,720
+These phone lines have limited
+frequencies that are available,
+
+168
+00:07:07,720 --> 00:07:10,080
+and therefore, there's a
+limited amount of bandwidth
+
+169
+00:07:10,080 --> 00:07:13,320
+that you could send between
+those two locations.
+
+170
+00:07:13,320 --> 00:07:17,250
+You'll sometimes see modems
+used as a secondary, or backup,
+
+171
+00:07:17,250 --> 00:07:21,060
+system to use the plain old
+telephone service or the POTS
+
+172
+00:07:21,060 --> 00:07:23,490
+system to be able
+to communicate when
+
+173
+00:07:23,490 --> 00:07:27,060
+all other forms of
+communication are unavailable.
+
+174
+00:07:27,060 --> 00:07:28,770
+If you have DSL
+in your location,
+
+175
+00:07:28,770 --> 00:07:31,470
+then you're probably
+connecting to the DSL network
+
+176
+00:07:31,470 --> 00:07:33,420
+using a DSL modem.
+
+177
+00:07:33,420 --> 00:07:36,480
+If you have broadband internet
+from your cable company,
+
+178
+00:07:36,480 --> 00:07:38,970
+they will provide you
+with a cable modem.
+
+179
+00:07:38,970 --> 00:07:42,540
+Although technically, a cable
+modem is more of a bridge
+
+180
+00:07:42,540 --> 00:07:44,630
+than it is a modem.
+
+181
+00:07:44,630 --> 00:07:47,540
+Sometimes you just need to
+convert between different types
+
+182
+00:07:47,540 --> 00:07:48,890
+of network media.
+
+183
+00:07:48,890 --> 00:07:50,690
+You don't need to make
+forwarding decisions
+
+184
+00:07:50,690 --> 00:07:54,950
+based on a Layer 2 MAC address
+or a Layer 3 IP address.
+
+185
+00:07:54,950 --> 00:07:57,290
+You're really just looking
+to change communication
+
+186
+00:07:57,290 --> 00:07:59,960
+from running over a
+copper network to a fiber,
+
+187
+00:07:59,960 --> 00:08:02,000
+and perhaps back again.
+
+188
+00:08:02,000 --> 00:08:05,550
+In those scenarios, you might
+want to use a media converter.
+
+189
+00:08:05,550 --> 00:08:07,880
+This is a good example
+of a media converter.
+
+190
+00:08:07,880 --> 00:08:10,010
+This operates at OSI Layer 1.
+
+191
+00:08:10,010 --> 00:08:12,200
+It's simply changing
+the physical layer
+
+192
+00:08:12,200 --> 00:08:16,460
+from a copper network to a
+fiber network or vise versa.
+
+193
+00:08:16,460 --> 00:08:18,530
+You might use one of
+these media converters
+
+194
+00:08:18,530 --> 00:08:21,320
+if you need to extend the
+communication over a very
+
+195
+00:08:21,320 --> 00:08:22,460
+long distance.
+
+196
+00:08:22,460 --> 00:08:24,410
+We know that Ethernet
+can support up
+
+197
+00:08:24,410 --> 00:08:26,810
+to 100 meters of communication.
+
+198
+00:08:26,810 --> 00:08:29,030
+But if you need to go
+kilometers in distance,
+
+199
+00:08:29,030 --> 00:08:31,760
+you might want to include a
+media converter to convert
+
+200
+00:08:31,760 --> 00:08:35,059
+to fiber, extended it
+over that long distance,
+
+201
+00:08:35,059 --> 00:08:37,130
+and then, perhaps,
+convert it back to copper
+
+202
+00:08:37,130 --> 00:08:38,985
+on the other end.
+
+203
+00:08:38,985 --> 00:08:40,360
+You could also
+use this if you've
+
+204
+00:08:40,360 --> 00:08:42,429
+been provided with
+fiber connections,
+
+205
+00:08:42,429 --> 00:08:45,310
+but your switch only
+supports copper connections.
+
+206
+00:08:45,310 --> 00:08:47,050
+You could use the
+media converter
+
+207
+00:08:47,050 --> 00:08:49,540
+to convert from fiber
+to copper to provide
+
+208
+00:08:49,540 --> 00:08:51,800
+that connection to the switch.
+
+209
+00:08:51,800 --> 00:08:54,380
+This is usually an active
+conversion that's taking place.
+
+210
+00:08:54,380 --> 00:08:57,820
+So these devices very
+commonly need to be powered.
+
+211
+00:08:57,820 --> 00:08:59,710
+You don't generally
+see a device that's
+
+212
+00:08:59,710 --> 00:09:03,130
+converting from fiber to copper
+without some type of power
+
+213
+00:09:03,130 --> 00:09:04,910
+source being connected.
+
+214
+00:09:04,910 --> 00:09:07,810
+In fact, it's not uncommon to
+see rack-based media converters
+
+215
+00:09:07,810 --> 00:09:10,630
+like this one that have
+central power supplies that
+
+216
+00:09:10,630 --> 00:09:14,890
+provide power to all of these
+different media converters.
+
+217
+00:09:14,890 --> 00:09:18,190
+Our wireless networks
+never seem to extend as far
+
+218
+00:09:18,190 --> 00:09:19,640
+as we would like them to go.
+
+219
+00:09:19,640 --> 00:09:21,970
+That's because sometimes,
+we don't have a choice where
+
+220
+00:09:21,970 --> 00:09:23,620
+we put an access point.
+
+221
+00:09:23,620 --> 00:09:26,380
+There might be a single room
+where we have an Ethernet
+
+222
+00:09:26,380 --> 00:09:28,360
+connection, and
+that's the only place
+
+223
+00:09:28,360 --> 00:09:31,840
+available to plug in that
+wireless access point.
+
+224
+00:09:31,840 --> 00:09:33,550
+With a wireless
+range extender, you
+
+225
+00:09:33,550 --> 00:09:36,770
+can increase the size of
+that wireless network.
+
+226
+00:09:36,770 --> 00:09:39,010
+You can think of this as
+a wireless repeater that's
+
+227
+00:09:39,010 --> 00:09:41,140
+able to receive
+a wireless signal
+
+228
+00:09:41,140 --> 00:09:44,710
+and then repeat that
+signal to a local area.
+
+229
+00:09:44,710 --> 00:09:46,690
+Here's how this
+wireless range extender
+
+230
+00:09:46,690 --> 00:09:48,520
+might work in a typical house.
+
+231
+00:09:48,520 --> 00:09:51,820
+Let's say that your cable modem
+connection comes into a family
+
+232
+00:09:51,820 --> 00:09:54,580
+room, and that's the only
+place available to put
+
+233
+00:09:54,580 --> 00:09:55,960
+a wireless access point.
+
+234
+00:09:55,960 --> 00:09:58,270
+We'll put it up
+high on this shelf.
+
+235
+00:09:58,270 --> 00:10:01,030
+And it might cover a
+certain area of the house.
+
+236
+00:10:01,030 --> 00:10:03,910
+But you can see that the
+kitchen and the master bedroom
+
+237
+00:10:03,910 --> 00:10:05,390
+don't have any coverage.
+
+238
+00:10:05,390 --> 00:10:08,350
+So we might install a
+wireless range extender
+
+239
+00:10:08,350 --> 00:10:11,290
+right in the middle, maybe
+in this hallway upstairs.
+
+240
+00:10:11,290 --> 00:10:13,180
+And when we turn that
+on, we can extend
+
+241
+00:10:13,180 --> 00:10:16,300
+that wireless signal to
+cover more of this house
+
+242
+00:10:16,300 --> 00:10:18,820
+just by adding that
+single repeater
+
+243
+00:10:18,820 --> 00:10:22,040
+right in the middle
+of the communication.
+
+244
+00:10:22,040 --> 00:10:24,950
+Remarkably, voice
+communication continues
+
+245
+00:10:24,950 --> 00:10:27,410
+to be something
+we use even today.
+
+246
+00:10:27,410 --> 00:10:30,980
+We are using different ways to
+communicate over these voice
+
+247
+00:10:30,980 --> 00:10:34,370
+type networks by using
+voice over IP telephones
+
+248
+00:10:34,370 --> 00:10:38,880
+or other types of software-based
+voice over IP endpoints.
+
+249
+00:10:38,880 --> 00:10:40,350
+This means we now have options.
+
+250
+00:10:40,350 --> 00:10:42,680
+We can use voice over
+IP instead of using
+
+251
+00:10:42,680 --> 00:10:45,560
+the traditional plain old
+telephone service or POTS
+
+252
+00:10:45,560 --> 00:10:46,310
+lines.
+
+253
+00:10:46,310 --> 00:10:48,770
+And we could use different
+types of platforms
+
+254
+00:10:48,770 --> 00:10:51,680
+to be able to send this
+voice over IP communication.
+
+255
+00:10:51,680 --> 00:10:54,140
+We could use a traditional
+physical handset,
+
+256
+00:10:54,140 --> 00:10:56,780
+or we could use software
+that's built into a browser,
+
+257
+00:10:56,780 --> 00:10:59,200
+or on our mobile devices.
+
