@@ -1,0 +1,368 @@
+1
+00:00:02,110 --> 00:00:04,630
+All of the devices on our
+network have their own clock.
+
+2
+00:00:04,630 --> 00:00:07,330
+This would be every server,
+every router, every switch,
+
+3
+00:00:07,330 --> 00:00:10,180
+every workstation, and
+every other device.
+
+4
+00:00:10,180 --> 00:00:14,410
+There is usually log files,
+authentication details,
+
+5
+00:00:14,410 --> 00:00:16,870
+anything dealing with
+logging of information
+
+6
+00:00:16,870 --> 00:00:20,110
+is all using the date
+and time that is gathered
+
+7
+00:00:20,110 --> 00:00:21,670
+from this clock information.
+
+8
+00:00:21,670 --> 00:00:25,090
+So, having this synchronized
+across all of these devices
+
+9
+00:00:25,090 --> 00:00:26,140
+is very important.
+
+10
+00:00:26,140 --> 00:00:28,390
+That would allow you
+to compare log files
+
+11
+00:00:28,390 --> 00:00:31,990
+across multiple devices to
+track exactly what's going on
+
+12
+00:00:31,990 --> 00:00:33,310
+in your environment.
+
+13
+00:00:33,310 --> 00:00:36,320
+And, of course, you would like
+this to occur automatically.
+
+14
+00:00:36,320 --> 00:00:38,710
+You don't want to have to
+go into every single device
+
+15
+00:00:38,710 --> 00:00:42,130
+and update the clock or have
+to update the clock every time
+
+16
+00:00:42,130 --> 00:00:43,960
+the device is rebooted.
+
+17
+00:00:43,960 --> 00:00:47,230
+Fortunately, we're able
+to do this using NTP--
+
+18
+00:00:47,230 --> 00:00:49,390
+or the Network Time Protocol.
+
+19
+00:00:49,390 --> 00:00:53,260
+This allows us to configure
+our devices with an NTP server
+
+20
+00:00:53,260 --> 00:00:56,200
+and then they can check
+in to that NTP server
+
+21
+00:00:56,200 --> 00:00:59,300
+to update their clocks
+on a regular basis.
+
+22
+00:00:59,300 --> 00:01:03,070
+This is an extremely accurate
+way of updating these clocks.
+
+23
+00:01:03,070 --> 00:01:06,880
+Usually, the accuracy is
+better than one millisecond
+
+24
+00:01:06,880 --> 00:01:09,220
+when you're updating
+the clocks with an NTP
+
+25
+00:01:09,220 --> 00:01:11,870
+server on your local network.
+
+26
+00:01:11,870 --> 00:01:14,050
+If you're configuring
+NTP on your network
+
+27
+00:01:14,050 --> 00:01:17,510
+you may want to have
+an internal NTP server.
+
+28
+00:01:17,510 --> 00:01:19,300
+This is a server
+that is in charge
+
+29
+00:01:19,300 --> 00:01:21,640
+of the clock for all
+of the devices that
+
+30
+00:01:21,640 --> 00:01:23,150
+need to get updates.
+
+31
+00:01:23,150 --> 00:01:26,920
+And as an NTP server, it
+does not modify its own time.
+
+32
+00:01:26,920 --> 00:01:29,260
+An NTP client is
+a device that will
+
+33
+00:01:29,260 --> 00:01:31,990
+request these times
+from the NTP server
+
+34
+00:01:31,990 --> 00:01:34,600
+and then update their
+clocks accordingly.
+
+35
+00:01:34,600 --> 00:01:38,620
+Sometimes a device can be
+both an NTP client and an NTP
+
+36
+00:01:38,620 --> 00:01:39,340
+server.
+
+37
+00:01:39,340 --> 00:01:41,950
+So it can update its time
+based on the time that
+
+38
+00:01:41,950 --> 00:01:45,190
+may be available on a
+more accurate NTP server
+
+39
+00:01:45,190 --> 00:01:48,640
+and then it can provide those
+updates to other NTP clients
+
+40
+00:01:48,640 --> 00:01:50,150
+on your network.
+
+41
+00:01:50,150 --> 00:01:52,540
+If you're planning to configure
+this on your network then
+
+42
+00:01:52,540 --> 00:01:56,440
+you need to decide what devices
+will be NTP clients, which
+
+43
+00:01:56,440 --> 00:02:00,610
+will be NTP servers, and which
+devices may be both an NTP
+
+44
+00:02:00,610 --> 00:02:03,910
+client and an NTP server.
+
+45
+00:02:03,910 --> 00:02:07,300
+We can associate a
+value with an NTP server
+
+46
+00:02:07,300 --> 00:02:11,200
+that designates how far it is
+away from the original time
+
+47
+00:02:11,200 --> 00:02:11,920
+source.
+
+48
+00:02:11,920 --> 00:02:15,310
+We call these stratum
+layers in NTP.
+
+49
+00:02:15,310 --> 00:02:17,320
+That's because the
+original reference
+
+50
+00:02:17,320 --> 00:02:19,540
+clock would be stratum 0.
+
+51
+00:02:19,540 --> 00:02:22,270
+This might be an atomic
+clock or a GPS clock
+
+52
+00:02:22,270 --> 00:02:23,680
+that you've configured.
+
+53
+00:02:23,680 --> 00:02:25,990
+The next server
+away from stratum 0
+
+54
+00:02:25,990 --> 00:02:28,090
+would be a stratum
+1 server, which
+
+55
+00:02:28,090 --> 00:02:31,870
+is going to be obtaining its
+timestamp from a stratum 0
+
+56
+00:02:31,870 --> 00:02:32,710
+server.
+
+57
+00:02:32,710 --> 00:02:36,070
+You might also have stratum 2
+servers on your network, which
+
+58
+00:02:36,070 --> 00:02:39,400
+are going to be receiving their
+timestamps from a stratum 1
+
+59
+00:02:39,400 --> 00:02:40,870
+server.
+
+60
+00:02:40,870 --> 00:02:42,790
+On your client
+workstations you generally
+
+61
+00:02:42,790 --> 00:02:47,440
+would configure your NTP client,
+which may specify an IP address
+
+62
+00:02:47,440 --> 00:02:51,280
+or the domain name of a
+particular NTP server.
+
+63
+00:02:51,280 --> 00:02:52,990
+And if this is inside
+of your network
+
+64
+00:02:52,990 --> 00:02:56,560
+you may want to specify your
+own internal IP addresses.
+
+65
+00:02:56,560 --> 00:02:59,410
+You can also use
+multiple NTP servers just
+
+66
+00:02:59,410 --> 00:03:01,970
+in case one of those
+is not available.
+
+67
+00:03:01,970 --> 00:03:05,140
+If this NTP service is going to
+be on your own internal network
+
+68
+00:03:05,140 --> 00:03:07,090
+you'll need at
+least one NTP server
+
+69
+00:03:07,090 --> 00:03:09,040
+to act as the clock source.
+
+70
+00:03:09,040 --> 00:03:12,250
+You'll also specify in the
+configuration of that NTP
+
+71
+00:03:12,250 --> 00:03:15,470
+server what stratum this
+device happens to be.
+
+72
+00:03:15,470 --> 00:03:17,890
+So, if a client has the
+choice of synchronizing itself
+
+73
+00:03:17,890 --> 00:03:21,190
+with an NTP server that
+has a stratum level of two
+
+74
+00:03:21,190 --> 00:03:24,670
+and another NTP server that
+has a stratum level of one
+
+75
+00:03:24,670 --> 00:03:26,560
+it will choose to
+synchronize itself
+
+76
+00:03:26,560 --> 00:03:28,930
+with the server that has
+the lower stratum number
+
+77
+00:03:28,930 --> 00:03:31,560
+or the stratum level one.
+
