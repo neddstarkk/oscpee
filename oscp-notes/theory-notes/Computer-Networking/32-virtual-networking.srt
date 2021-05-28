@@ -1,0 +1,510 @@
+1
+00:00:02,090 --> 00:00:05,360
+Virtualization has drastically
+changed to our modern data
+
+2
+00:00:05,360 --> 00:00:06,116
+centers.
+
+3
+00:00:06,116 --> 00:00:07,490
+We used to have
+data centers that
+
+4
+00:00:07,490 --> 00:00:11,030
+may have 100 individual
+servers in them,
+
+5
+00:00:11,030 --> 00:00:13,550
+and of course, all of
+those individual servers
+
+6
+00:00:13,550 --> 00:00:16,460
+were all connected together
+with enterprise switches
+
+7
+00:00:16,460 --> 00:00:18,560
+and we connected all
+of the separate VLANs
+
+8
+00:00:18,560 --> 00:00:20,690
+together with
+enterprise routers.
+
+9
+00:00:20,690 --> 00:00:22,700
+And of course, there
+was redundancy,
+
+10
+00:00:22,700 --> 00:00:25,460
+so we always had multiple
+switches and multiple
+
+11
+00:00:25,460 --> 00:00:28,970
+routers to ensure there was
+up time to these services.
+
+12
+00:00:28,970 --> 00:00:31,460
+And then we virtualized
+the data center.
+
+13
+00:00:31,460 --> 00:00:34,340
+We removed those
+100 physical devices
+
+14
+00:00:34,340 --> 00:00:37,040
+and created them all
+virtually within one
+
+15
+00:00:37,040 --> 00:00:39,860
+single large physical system.
+
+16
+00:00:39,860 --> 00:00:41,360
+So now that all of
+these servers are
+
+17
+00:00:41,360 --> 00:00:43,580
+living in this
+virtual world, how
+
+18
+00:00:43,580 --> 00:00:46,310
+do we provide switching
+and routing services
+
+19
+00:00:46,310 --> 00:00:49,850
+for all of those networks
+and all of those VLANs?
+
+20
+00:00:49,850 --> 00:00:52,160
+Of course, all of those
+hundreds of servers
+
+21
+00:00:52,160 --> 00:00:54,110
+that are now
+virtualized will still
+
+22
+00:00:54,110 --> 00:00:56,960
+need to be able to communicate
+to the physical world.
+
+23
+00:00:56,960 --> 00:00:58,850
+The component that
+provides this link
+
+24
+00:00:58,850 --> 00:01:01,760
+between the virtual world
+and the physical world
+
+25
+00:01:01,760 --> 00:01:03,230
+is the hypervisor.
+
+26
+00:01:03,230 --> 00:01:04,910
+You might also hear
+this referred to
+
+27
+00:01:04,910 --> 00:01:07,490
+as the Virtual Machine Manager.
+
+28
+00:01:07,490 --> 00:01:09,560
+This is the component
+that manages
+
+29
+00:01:09,560 --> 00:01:14,030
+the entire virtual platform for
+all of those virtual servers.
+
+30
+00:01:14,030 --> 00:01:16,730
+If you're running a virtual
+machine on your existing
+
+31
+00:01:16,730 --> 00:01:20,450
+desktop, you may want to be sure
+that the hypervisor is using
+
+32
+00:01:20,450 --> 00:01:23,420
+a CPU that could
+support virtualization
+
+33
+00:01:23,420 --> 00:01:26,000
+within the hardware of the CPU.
+
+34
+00:01:26,000 --> 00:01:29,840
+Intel calls this VT for
+virtualization technology,
+
+35
+00:01:29,840 --> 00:01:33,810
+and AMD calls it AMDV
+for the virtualization.
+
+36
+00:01:33,810 --> 00:01:37,790
+This hypervisor is the component
+in this virtual system that
+
+37
+00:01:37,790 --> 00:01:40,400
+is maintaining all
+of these virtual CPUs
+
+38
+00:01:40,400 --> 00:01:42,030
+to all of these devices.
+
+39
+00:01:42,030 --> 00:01:45,110
+It's allowing you to set up
+separate networking components,
+
+40
+00:01:45,110 --> 00:01:49,446
+and it can provide security for
+all of these virtual machines.
+
+41
+00:01:49,446 --> 00:01:51,570
+There are a lot of different
+options for networking
+
+42
+00:01:51,570 --> 00:01:53,390
+when you get into
+the virtual world.
+
+43
+00:01:53,390 --> 00:01:55,220
+A lot of these
+hypervisors will have
+
+44
+00:01:55,220 --> 00:01:57,590
+their own internal
+network, so they
+
+45
+00:01:57,590 --> 00:02:00,170
+can communicate to
+all of the local VMs
+
+46
+00:02:00,170 --> 00:02:03,050
+without ever using
+an external network.
+
+47
+00:02:03,050 --> 00:02:05,270
+You could also use
+a shared address
+
+48
+00:02:05,270 --> 00:02:08,370
+to communicate outside
+of the virtual machine.
+
+49
+00:02:08,370 --> 00:02:10,100
+So there might be
+a single Ethernet
+
+50
+00:02:10,100 --> 00:02:12,860
+card on this virtual
+machine platform
+
+51
+00:02:12,860 --> 00:02:16,180
+and the hundreds of VMs that
+are inside of this device
+
+52
+00:02:16,180 --> 00:02:19,040
+will use that single
+IP address associated
+
+53
+00:02:19,040 --> 00:02:21,380
+with that interface
+as the connection
+
+54
+00:02:21,380 --> 00:02:22,890
+to the outside world.
+
+55
+00:02:22,890 --> 00:02:26,270
+This effectively is performing
+a network address translation
+
+56
+00:02:26,270 --> 00:02:30,904
+function to be able to use and
+share that single IP address.
+
+57
+00:02:30,904 --> 00:02:32,570
+You can also configure
+a virtual machine
+
+58
+00:02:32,570 --> 00:02:35,210
+to have its own IP address
+rather than sharing
+
+59
+00:02:35,210 --> 00:02:36,710
+a single natted address.
+
+60
+00:02:36,710 --> 00:02:39,230
+This would be a bridged
+network address,
+
+61
+00:02:39,230 --> 00:02:42,800
+and it will allow the VM to
+have its own unique addressing.
+
+62
+00:02:42,800 --> 00:02:44,840
+And some virtual machines
+can be configured
+
+63
+00:02:44,840 --> 00:02:47,852
+with a private address that
+doesn't communicate to anyone.
+
+64
+00:02:47,852 --> 00:02:49,310
+This is very common
+to do if you're
+
+65
+00:02:49,310 --> 00:02:52,820
+setting up a virtual machine
+in a test environment.
+
+66
+00:02:52,820 --> 00:02:54,740
+But now that all
+of these servers
+
+67
+00:02:54,740 --> 00:02:57,080
+have been put into a
+virtual environment,
+
+68
+00:02:57,080 --> 00:02:59,750
+we can also build out
+switches and routers
+
+69
+00:02:59,750 --> 00:03:01,940
+in this virtual
+environment as well.
+
+70
+00:03:01,940 --> 00:03:04,430
+In this scenario,
+I've got a dotted line
+
+71
+00:03:04,430 --> 00:03:06,590
+around this virtual
+world that we've
+
+72
+00:03:06,590 --> 00:03:10,460
+created with these hundreds of
+different servers inside of it.
+
+73
+00:03:10,460 --> 00:03:13,250
+And of course, there is a
+link to the outside world
+
+74
+00:03:13,250 --> 00:03:16,370
+that eventually will connect
+to a physical switch.
+
+75
+00:03:16,370 --> 00:03:18,470
+Inside of this virtual
+world, I built out
+
+76
+00:03:18,470 --> 00:03:20,240
+a couple of virtual
+switches that
+
+77
+00:03:20,240 --> 00:03:22,610
+are connecting to
+these virtual servers,
+
+78
+00:03:22,610 --> 00:03:24,530
+and I've also got
+a virtual router
+
+79
+00:03:24,530 --> 00:03:27,860
+that's able to route between
+these different networks.
+
+80
+00:03:27,860 --> 00:03:29,930
+Because this is a
+virtual environment,
+
+81
+00:03:29,930 --> 00:03:32,120
+I can make changes
+at any time just
+
+82
+00:03:32,120 --> 00:03:34,130
+by making a few mouse clicks.
+
+83
+00:03:34,130 --> 00:03:36,620
+These virtual switches
+and virtual routers
+
+84
+00:03:36,620 --> 00:03:39,810
+are all software that's running
+in this virtual environment.
+
+85
+00:03:39,810 --> 00:03:42,950
+So if I'd like to put a back
+end process for this server that
+
+86
+00:03:42,950 --> 00:03:45,290
+happens to have a
+separate database server,
+
+87
+00:03:45,290 --> 00:03:47,930
+I can simply add a
+different virtual switch
+
+88
+00:03:47,930 --> 00:03:49,640
+and now I've got a
+way for this server
+
+89
+00:03:49,640 --> 00:03:53,210
+to communicate on the back
+end to a separate database.
+
+90
+00:03:53,210 --> 00:03:56,210
+Just as I've added virtual
+networking components,
+
+91
+00:03:56,210 --> 00:03:58,730
+I can also add virtual
+security components.
+
+92
+00:03:58,730 --> 00:04:00,920
+I could add a virtual firewall.
+
+93
+00:04:00,920 --> 00:04:02,690
+So I can have a
+firewall protecting
+
+94
+00:04:02,690 --> 00:04:06,350
+all of the data that's going in
+and out of this virtual world.
+
+95
+00:04:06,350 --> 00:04:09,980
+I can also bring the
+security down to a port level
+
+96
+00:04:09,980 --> 00:04:12,500
+and add multiple
+virtual firewalls,
+
+97
+00:04:12,500 --> 00:04:15,440
+so I'm able to have a
+very specific security
+
+98
+00:04:15,440 --> 00:04:17,930
+policy for every
+single link that's
+
+99
+00:04:17,930 --> 00:04:22,310
+going in and out of every server
+in this virtual environment.
+
+100
+00:04:22,310 --> 00:04:24,890
+There are certainly
+advantages and disadvantages
+
+101
+00:04:24,890 --> 00:04:27,290
+to all of these
+different configurations.
+
+102
+00:04:27,290 --> 00:04:29,450
+But when you're working
+with a virtual environment,
+
+103
+00:04:29,450 --> 00:04:32,480
+you have the flexibility to
+build the environment exactly
+
+104
+00:04:32,480 --> 00:04:36,250
+with the resources and
+requirements that you need.
+
