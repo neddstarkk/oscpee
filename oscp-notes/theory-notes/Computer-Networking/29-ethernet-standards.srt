@@ -1,0 +1,364 @@
+1
+00:00:02,090 --> 00:00:06,110
+By far, Ethernet is the most
+popular network topology
+
+2
+00:00:06,110 --> 00:00:06,950
+in the world.
+
+3
+00:00:06,950 --> 00:00:10,400
+Somebody has a network, and they
+have some flavor of Ethernet
+
+4
+00:00:10,400 --> 00:00:12,420
+that they're using
+in their environment.
+
+5
+00:00:12,420 --> 00:00:14,210
+And there are many
+different types
+
+6
+00:00:14,210 --> 00:00:16,760
+of Ethernet running different
+speeds, different types
+
+7
+00:00:16,760 --> 00:00:18,860
+of cabling, different
+types of connector
+
+8
+00:00:18,860 --> 00:00:21,110
+and different types
+of network switches.
+
+9
+00:00:21,110 --> 00:00:24,500
+In the past, we may have run
+ethernet over coaxial cables,
+
+10
+00:00:24,500 --> 00:00:27,290
+but these days most
+modern Ethernet networks
+
+11
+00:00:27,290 --> 00:00:31,030
+will be using twisted pair
+cabling or fiber optic.
+
+12
+00:00:31,030 --> 00:00:33,940
+If you're running 100 megabit
+Ethernet over twisted pair
+
+13
+00:00:33,940 --> 00:00:37,492
+cables, then you are
+using 100BASE-TX.
+
+14
+00:00:37,492 --> 00:00:38,950
+You'll sometimes
+hear this referred
+
+15
+00:00:38,950 --> 00:00:43,420
+to as fast Ethernet, which is
+what we called 100 megabit when
+
+16
+00:00:43,420 --> 00:00:47,430
+it was released after using 10
+megabit Ethernet for so long.
+
+17
+00:00:47,430 --> 00:00:51,460
+100BASE-TX uses category 5
+or better twisted pair copper
+
+18
+00:00:51,460 --> 00:00:54,070
+cabling, and it uses
+two of the pair that
+
+19
+00:00:54,070 --> 00:00:55,350
+are inside of that cable.
+
+20
+00:00:55,350 --> 00:00:58,000
+It does not use all four
+pair to communicate.
+
+21
+00:00:58,000 --> 00:00:59,830
+And the maximum
+length of a cable
+
+22
+00:00:59,830 --> 00:01:05,530
+run for the 100BASE-TX standard
+is 100 meters in length.
+
+23
+00:01:05,530 --> 00:01:07,870
+Moving up from 100
+megabit Ethernet,
+
+24
+00:01:07,870 --> 00:01:11,980
+we move into gigabit
+Ethernet or 1000 megabit.
+
+25
+00:01:11,980 --> 00:01:13,630
+The standard for
+gigabit Ethernet
+
+26
+00:01:13,630 --> 00:01:16,810
+that most people are
+using is 1000BASE-T.
+
+27
+00:01:16,810 --> 00:01:20,980
+1000BASE-T gigabit Ethernet runs
+over category 5 twisted pair
+
+28
+00:01:20,980 --> 00:01:22,310
+cable or better.
+
+29
+00:01:22,310 --> 00:01:24,670
+If you look at the
+EIA TIA standard,
+
+30
+00:01:24,670 --> 00:01:27,430
+you'll see that category
+three, four, and five cable
+
+31
+00:01:27,430 --> 00:01:28,820
+is deprecated.
+
+32
+00:01:28,820 --> 00:01:30,730
+So usually the minimum
+cable that you'll
+
+33
+00:01:30,730 --> 00:01:36,280
+find available to run for
+1000BASE-T is category 5e.
+
+34
+00:01:36,280 --> 00:01:38,110
+And instead of
+using the two pairs
+
+35
+00:01:38,110 --> 00:01:40,600
+that we used for 100
+megabit Ethernet,
+
+36
+00:01:40,600 --> 00:01:43,300
+our 1000BASE-T gig
+Ethernet requires
+
+37
+00:01:43,300 --> 00:01:46,370
+that we use all four pairs
+inside of that twisted pair
+
+38
+00:01:46,370 --> 00:01:48,200
+of cabling.
+
+39
+00:01:48,200 --> 00:01:51,100
+If you need to run Ethernet
+pass that 100 meter
+
+40
+00:01:51,100 --> 00:01:53,380
+limitation for copper
+cabling, then you'll
+
+41
+00:01:53,380 --> 00:01:55,900
+probably want to connect
+equipment using fiber.
+
+42
+00:01:55,900 --> 00:01:58,420
+And of course, there are
+gigabit Ethernet standards
+
+43
+00:01:58,420 --> 00:01:59,800
+for fiber optics.
+
+44
+00:01:59,800 --> 00:02:03,070
+One of these standards
+is 1000BASE-SX.
+
+45
+00:02:03,070 --> 00:02:06,820
+This is gigabit Ethernet running
+at 1000 megabits per second
+
+46
+00:02:06,820 --> 00:02:10,930
+using what's called NIR or
+near infrared light bandwidth.
+
+47
+00:02:10,930 --> 00:02:13,630
+The standard commonly
+uses multi-mode fiber
+
+48
+00:02:13,630 --> 00:02:16,630
+as it's physical medium, so
+we can extend this Ethernet
+
+49
+00:02:16,630 --> 00:02:21,220
+connection generally 220 to
+about 500 meters in length
+
+50
+00:02:21,220 --> 00:02:24,040
+depending on the type of
+fiber that we're using.
+
+51
+00:02:24,040 --> 00:02:25,870
+For much longer
+ethernet connections,
+
+52
+00:02:25,870 --> 00:02:29,740
+you may want to use 1000BASE-LX,
+which is gig Ethernet using
+
+53
+00:02:29,740 --> 00:02:31,780
+a long wave length laser.
+
+54
+00:02:31,780 --> 00:02:34,780
+You could run 1000BASE-LX
+over multi-mode fiber,
+
+55
+00:02:34,780 --> 00:02:38,060
+and you get about
+550 meters in length.
+
+56
+00:02:38,060 --> 00:02:40,090
+But if you really need
+to extend the length up
+
+57
+00:02:40,090 --> 00:02:43,570
+to five kilometers,
+you can use 1000BASE-LX
+
+58
+00:02:43,570 --> 00:02:46,300
+over single mode fiber.
+
+59
+00:02:46,300 --> 00:02:49,030
+If you're really looking to
+push the throughput of copper
+
+60
+00:02:49,030 --> 00:02:52,570
+cabling, you can run 10
+gig Ethernet over copper
+
+61
+00:02:52,570 --> 00:02:55,060
+or the 10GBASE-T standard.
+
+62
+00:02:55,060 --> 00:02:58,450
+This uses frequencies up
+to 500 megahertz inside
+
+63
+00:02:58,450 --> 00:03:00,520
+of this cable, which
+is well above what
+
+64
+00:03:00,520 --> 00:03:05,350
+we use for our gig Ethernet
+connections of 125 megahertz.
+
+65
+00:03:05,350 --> 00:03:07,240
+Because of that,
+we will need cable
+
+66
+00:03:07,240 --> 00:03:09,910
+that's specifically designed
+to support these higher
+
+67
+00:03:09,910 --> 00:03:11,030
+frequencies.
+
+68
+00:03:11,030 --> 00:03:15,410
+So for 10GBASE-T, you'll be
+able to get 55 meters in length.
+
+69
+00:03:15,410 --> 00:03:17,680
+If you're using cat
+6 cable, you can
+
+70
+00:03:17,680 --> 00:03:21,460
+upgrade to category 6, which
+stands for augmented, if you
+
+71
+00:03:21,460 --> 00:03:23,639
+need to go to 100 meters.
+
+72
+00:03:23,639 --> 00:03:25,930
+And if you need additional
+shielding from interference,
+
+73
+00:03:25,930 --> 00:03:28,330
+you can choose a
+category 7 cable
+
+74
+00:03:28,330 --> 00:03:31,210
+that is shielding not only
+the entire cable itself,
+
+75
+00:03:31,210 --> 00:03:34,440
+but each individual
+pairs of wire.
+
