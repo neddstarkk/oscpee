@@ -1,0 +1,1977 @@
+1
+00:00:02,190 --> 00:00:04,920
+A multilayer switch can
+provide multiple functions
+
+2
+00:00:04,920 --> 00:00:05,880
+on a network.
+
+3
+00:00:05,880 --> 00:00:07,860
+It can act as a switch,
+so it can forward
+
+4
+00:00:07,860 --> 00:00:09,900
+traffic based on MAC addresses.
+
+5
+00:00:09,900 --> 00:00:12,330
+But it can also act
+as a router, which
+
+6
+00:00:12,330 --> 00:00:15,570
+means it's making forwarding
+decisions based on the Layer 3
+
+7
+00:00:15,570 --> 00:00:18,310
+addresses that are passing
+through this device.
+
+8
+00:00:18,310 --> 00:00:21,570
+This is often a function that
+is bundled together and marketed
+
+9
+00:00:21,570 --> 00:00:23,430
+together as a single device.
+
+10
+00:00:23,430 --> 00:00:27,030
+It's often referred to
+as a Layer 3 switch.
+
+11
+00:00:27,030 --> 00:00:30,750
+In reality, these two functions
+are working independently
+
+12
+00:00:30,750 --> 00:00:33,030
+inside this individual chassis.
+
+13
+00:00:33,030 --> 00:00:34,890
+So there might be
+switching occurring,
+
+14
+00:00:34,890 --> 00:00:36,870
+and all occurring at Layer 2.
+
+15
+00:00:36,870 --> 00:00:39,420
+And a completely different
+part of this device
+
+16
+00:00:39,420 --> 00:00:42,060
+is providing the
+router at Layer 3.
+
+17
+00:00:42,060 --> 00:00:44,850
+We've effectively taken
+two different devices--
+
+18
+00:00:44,850 --> 00:00:46,560
+a switch and a router--
+
+19
+00:00:46,560 --> 00:00:50,470
+and simply combined them
+within the same chassis.
+
+20
+00:00:50,470 --> 00:00:52,540
+Almost every
+organization is going
+
+21
+00:00:52,540 --> 00:00:54,490
+to have a wireless network.
+
+22
+00:00:54,490 --> 00:00:57,040
+And it's usually one that
+extends everywhere you
+
+23
+00:00:57,040 --> 00:00:59,920
+might go inside of a
+particular facility.
+
+24
+00:00:59,920 --> 00:01:02,490
+There's usually not a
+single access point.
+
+25
+00:01:02,490 --> 00:01:04,569
+There are usually
+many access points
+
+26
+00:01:04,569 --> 00:01:07,030
+that are deployed in
+this organization.
+
+27
+00:01:07,030 --> 00:01:09,980
+These access points may
+extend to multiple buildings,
+
+28
+00:01:09,980 --> 00:01:12,070
+and they may be
+located at locations
+
+29
+00:01:12,070 --> 00:01:15,670
+that are very far away from
+where you happen to be sitting.
+
+30
+00:01:15,670 --> 00:01:17,590
+If you're managing
+the wireless network,
+
+31
+00:01:17,590 --> 00:01:20,990
+then you also know that changes
+are happening all the time.
+
+32
+00:01:20,990 --> 00:01:24,070
+There are changes to access
+policies, security policies,
+
+33
+00:01:24,070 --> 00:01:27,460
+and the configuration of the
+access points themselves.
+
+34
+00:01:27,460 --> 00:01:29,200
+This wireless
+network should also
+
+35
+00:01:29,200 --> 00:01:31,240
+be seamless for your end users.
+
+36
+00:01:31,240 --> 00:01:32,920
+They should be able
+to simply connect
+
+37
+00:01:32,920 --> 00:01:35,950
+to the wireless network, use
+their normal credentials,
+
+38
+00:01:35,950 --> 00:01:38,290
+and be able to communicate
+to all of the services
+
+39
+00:01:38,290 --> 00:01:40,830
+they need on your network.
+
+40
+00:01:40,830 --> 00:01:43,010
+These requirements for
+a large organization
+
+41
+00:01:43,010 --> 00:01:45,170
+are much different than
+the wireless networks
+
+42
+00:01:45,170 --> 00:01:46,410
+we have at home.
+
+43
+00:01:46,410 --> 00:01:48,200
+That's why, in these
+large companies,
+
+44
+00:01:48,200 --> 00:01:50,940
+you might have a
+wireless LAN controller.
+
+45
+00:01:50,940 --> 00:01:53,330
+This allows you to have
+centralized management
+
+46
+00:01:53,330 --> 00:01:55,760
+of all of your
+wireless access points
+
+47
+00:01:55,760 --> 00:01:57,650
+all from one single console.
+
+48
+00:01:57,650 --> 00:02:01,370
+We often refer to this as
+a single pane of glass.
+
+49
+00:02:01,370 --> 00:02:04,820
+From this single console, you
+can deploy new access points.
+
+50
+00:02:04,820 --> 00:02:07,490
+You can constantly monitor
+your wireless network
+
+51
+00:02:07,490 --> 00:02:09,289
+and look for any
+security concerns that
+
+52
+00:02:09,289 --> 00:02:10,620
+might be occurring.
+
+53
+00:02:10,620 --> 00:02:13,760
+You can, of course, make changes
+to the configurations of all
+
+54
+00:02:13,760 --> 00:02:15,980
+of your wireless
+access points, and then
+
+55
+00:02:15,980 --> 00:02:19,340
+provide reports on how much
+these wireless access points
+
+56
+00:02:19,340 --> 00:02:21,710
+are being used and by whom.
+
+57
+00:02:21,710 --> 00:02:24,520
+These wireless LAN controllers
+are often proprietary.
+
+58
+00:02:24,520 --> 00:02:27,170
+So they're specific to
+the brand of access point
+
+59
+00:02:27,170 --> 00:02:30,110
+that you're using
+in your network.
+
+60
+00:02:30,110 --> 00:02:33,170
+If you're providing some
+type of service to end users,
+
+61
+00:02:33,170 --> 00:02:34,780
+then some of your
+biggest concerns
+
+62
+00:02:34,780 --> 00:02:37,510
+are making sure that your
+service remains available
+
+63
+00:02:37,510 --> 00:02:39,520
+and it remains something
+that is responsive
+
+64
+00:02:39,520 --> 00:02:41,170
+when people try to use it.
+
+65
+00:02:41,170 --> 00:02:44,290
+One way to provide both
+uptime and availability
+
+66
+00:02:44,290 --> 00:02:46,840
+and an efficiency
+with the application
+
+67
+00:02:46,840 --> 00:02:49,760
+is to implement some
+type of load balancing.
+
+68
+00:02:49,760 --> 00:02:53,080
+Load balancers are often used
+for large scale implementations
+
+69
+00:02:53,080 --> 00:02:55,390
+of web servers,
+database servers,
+
+70
+00:02:55,390 --> 00:02:57,880
+and other major
+services on the network.
+
+71
+00:02:57,880 --> 00:02:59,890
+When we're implementing
+these load balancers
+
+72
+00:02:59,890 --> 00:03:01,600
+for fault tolerance,
+we're usually
+
+73
+00:03:01,600 --> 00:03:04,510
+putting multiple servers
+behind the load balancer.
+
+74
+00:03:04,510 --> 00:03:07,600
+If one server happens to
+fail, all of the other servers
+
+75
+00:03:07,600 --> 00:03:11,850
+are still available to provide
+that service to the end user.
+
+76
+00:03:11,850 --> 00:03:13,940
+This is how we might
+configure the load using
+
+77
+00:03:13,940 --> 00:03:14,960
+these multiple servers.
+
+78
+00:03:14,960 --> 00:03:18,420
+So we would bring up a server
+A, a server B, a server C,
+
+79
+00:03:18,420 --> 00:03:22,410
+a server D, and we put them
+all behind a load balancer.
+
+80
+00:03:22,410 --> 00:03:25,670
+Your users coming in from the
+other parts of the network
+
+81
+00:03:25,670 --> 00:03:27,650
+are simply connecting
+to the load balancer
+
+82
+00:03:27,650 --> 00:03:28,700
+to be able to use this.
+
+83
+00:03:28,700 --> 00:03:30,530
+And the load
+balancer is deciding
+
+84
+00:03:30,530 --> 00:03:34,325
+which particular servers will
+handle that particular request.
+
+85
+00:03:34,325 --> 00:03:37,295
+This load balancer is often
+monitoring the response
+
+86
+00:03:37,295 --> 00:03:39,400
+that it's getting
+from these servers.
+
+87
+00:03:39,400 --> 00:03:41,540
+And if one server
+begins to slow down,
+
+88
+00:03:41,540 --> 00:03:44,870
+it can balance the load
+across the remaining servers.
+
+89
+00:03:44,870 --> 00:03:48,650
+The load balancer might also
+be providing a TCP offload.
+
+90
+00:03:48,650 --> 00:03:51,650
+We know if we're communicating
+to a device with TCP,
+
+91
+00:03:51,650 --> 00:03:54,290
+there's the normal three
+way TCP handshake that
+
+92
+00:03:54,290 --> 00:03:56,480
+has to occur for every session.
+
+93
+00:03:56,480 --> 00:03:59,750
+The load balancer will provide
+that TCP handshake to the end
+
+94
+00:03:59,750 --> 00:04:02,660
+user, but the communication
+to the individual servers
+
+95
+00:04:02,660 --> 00:04:05,090
+behind the load balancer,
+we use a session
+
+96
+00:04:05,090 --> 00:04:08,030
+that's already up and running
+and will remain that way.
+
+97
+00:04:08,030 --> 00:04:11,360
+That removes another level
+of overhead from the servers,
+
+98
+00:04:11,360 --> 00:04:14,450
+and the load balancer manages
+all of the TCP handshake
+
+99
+00:04:14,450 --> 00:04:15,740
+overhead.
+
+100
+00:04:15,740 --> 00:04:18,920
+SSL encryption can also
+provide additional overhead
+
+101
+00:04:18,920 --> 00:04:19,880
+from the server.
+
+102
+00:04:19,880 --> 00:04:22,190
+So instead of doing that
+encryption and decryption
+
+103
+00:04:22,190 --> 00:04:24,770
+process on the server,
+the load balancer
+
+104
+00:04:24,770 --> 00:04:28,790
+will manage and be an endpoint
+for SSL communication.
+
+105
+00:04:28,790 --> 00:04:30,590
+Load balancers can
+also be configured
+
+106
+00:04:30,590 --> 00:04:32,210
+to cache client requests.
+
+107
+00:04:32,210 --> 00:04:35,240
+So if someone makes a request
+down to any of these servers,
+
+108
+00:04:35,240 --> 00:04:37,310
+the load balancer will
+cache that information
+
+109
+00:04:37,310 --> 00:04:39,590
+and provide the
+results to that user.
+
+110
+00:04:39,590 --> 00:04:42,920
+If another user asks for
+exactly the same information,
+
+111
+00:04:42,920 --> 00:04:45,560
+the load balancer will simply
+pull that from the cache
+
+112
+00:04:45,560 --> 00:04:48,470
+and send it back to the
+user without ever querying
+
+113
+00:04:48,470 --> 00:04:50,600
+the servers that are behind it.
+
+114
+00:04:50,600 --> 00:04:53,360
+Many load balancers will
+support multiple protocols.
+
+115
+00:04:53,360 --> 00:04:56,690
+And it may prioritize certain
+protocols over others.
+
+116
+00:04:56,690 --> 00:04:58,610
+It can also provide
+prioritization
+
+117
+00:04:58,610 --> 00:04:59,990
+at the application level.
+
+118
+00:04:59,990 --> 00:05:02,270
+So certain applications
+on these servers
+
+119
+00:05:02,270 --> 00:05:05,330
+may have a higher priority
+than other applications running
+
+120
+00:05:05,330 --> 00:05:07,870
+on exactly the same servers.
+
+121
+00:05:07,870 --> 00:05:11,870
+An IDS or an IPS is an
+intrusion detection system
+
+122
+00:05:11,870 --> 00:05:14,120
+or intrusion prevention system.
+
+123
+00:05:14,120 --> 00:05:16,640
+These are devices that
+we put on our network
+
+124
+00:05:16,640 --> 00:05:18,980
+to monitor all of the
+communication that's going
+
+125
+00:05:18,980 --> 00:05:21,060
+in and out of our network.
+
+126
+00:05:21,060 --> 00:05:23,905
+These are specifically
+looking for security events.
+
+127
+00:05:23,905 --> 00:05:25,280
+They're looking
+to see if someone
+
+128
+00:05:25,280 --> 00:05:27,740
+is trying to perform an
+exploit against an operating
+
+129
+00:05:27,740 --> 00:05:30,620
+system or an application, or
+someone who might be trying
+
+130
+00:05:30,620 --> 00:05:34,820
+to perform a buffer overflow
+or some type of data injection.
+
+131
+00:05:34,820 --> 00:05:37,400
+There's two different
+flavors of these devices.
+
+132
+00:05:37,400 --> 00:05:39,800
+The intrusion
+detection system is
+
+133
+00:05:39,800 --> 00:05:42,040
+one that's designed
+to alert when there
+
+134
+00:05:42,040 --> 00:05:43,680
+is these types of problems.
+
+135
+00:05:43,680 --> 00:05:46,040
+But it doesn't actively
+block any traffic
+
+136
+00:05:46,040 --> 00:05:47,730
+from going through your network.
+
+137
+00:05:47,730 --> 00:05:49,820
+An intrusion
+prevention system is
+
+138
+00:05:49,820 --> 00:05:53,150
+designed not only to identify
+these security issues,
+
+139
+00:05:53,150 --> 00:05:56,850
+but to also block them
+from entering your network.
+
+140
+00:05:56,850 --> 00:05:59,540
+There are many different
+ways that an IDS or an IPS
+
+141
+00:05:59,540 --> 00:06:02,000
+can identify these
+security anomalies.
+
+142
+00:06:02,000 --> 00:06:04,790
+One way is through a
+signature-based match.
+
+143
+00:06:04,790 --> 00:06:07,580
+This is looking for a
+very specific signature.
+
+144
+00:06:07,580 --> 00:06:10,220
+This happens to be a
+signature from an IPS
+
+145
+00:06:10,220 --> 00:06:12,680
+that is looking for
+the configure worm.
+
+146
+00:06:12,680 --> 00:06:15,930
+It's looking for an exact
+match of this information.
+
+147
+00:06:15,930 --> 00:06:17,840
+And if it finds the
+match, it will then
+
+148
+00:06:17,840 --> 00:06:20,120
+perform the alerting
+or blocking function
+
+149
+00:06:20,120 --> 00:06:23,690
+that you've configured
+in your IDS or your IPS.
+
+150
+00:06:23,690 --> 00:06:26,930
+Many modern IDS or
+IPS devices will also
+
+151
+00:06:26,930 --> 00:06:29,330
+monitor your network
+over time and determine
+
+152
+00:06:29,330 --> 00:06:31,430
+what is normal on your network.
+
+153
+00:06:31,430 --> 00:06:33,980
+If something happens
+that is outside the norm
+
+154
+00:06:33,980 --> 00:06:36,350
+or is an anomaly, it
+will then give you
+
+155
+00:06:36,350 --> 00:06:38,510
+the option to
+either allow or not
+
+156
+00:06:38,510 --> 00:06:40,890
+allow that traffic
+through the network.
+
+157
+00:06:40,890 --> 00:06:42,530
+These devices can
+also be configured
+
+158
+00:06:42,530 --> 00:06:45,060
+to look for a certain
+type of behavior.
+
+159
+00:06:45,060 --> 00:06:48,350
+If somebody accesses a file
+in a certain way, for example,
+
+160
+00:06:48,350 --> 00:06:51,470
+it may decide to flag that and
+allow you to make a decision on
+
+161
+00:06:51,470 --> 00:06:53,970
+whether that's allowed or not.
+
+162
+00:06:53,970 --> 00:06:56,190
+And some of these
+devices use heuristics,
+
+163
+00:06:56,190 --> 00:06:57,920
+which are a very
+broad description
+
+164
+00:06:57,920 --> 00:06:59,480
+of malicious activity.
+
+165
+00:06:59,480 --> 00:07:02,030
+Instead of having a
+specific signature,
+
+166
+00:07:02,030 --> 00:07:04,430
+heuristics are able to use
+artificial intelligence
+
+167
+00:07:04,430 --> 00:07:06,500
+to determine if a
+particular traffic
+
+168
+00:07:06,500 --> 00:07:09,710
+flow seems to be malicious,
+and then can take action
+
+169
+00:07:09,710 --> 00:07:11,940
+based on that.
+
+170
+00:07:11,940 --> 00:07:14,230
+A proxy is a
+security device that
+
+171
+00:07:14,230 --> 00:07:16,240
+sits in the middle
+of the communication
+
+172
+00:07:16,240 --> 00:07:18,790
+between the users and
+the external network
+
+173
+00:07:18,790 --> 00:07:20,230
+that they're accessing.
+
+174
+00:07:20,230 --> 00:07:23,530
+The proxy will receive the
+request that the users make
+
+175
+00:07:23,530 --> 00:07:26,140
+and then make that
+request on their behalf
+
+176
+00:07:26,140 --> 00:07:28,930
+to the service that's on
+the outside of the network.
+
+177
+00:07:28,930 --> 00:07:31,680
+It will then receive the
+response to that request,
+
+178
+00:07:31,680 --> 00:07:35,030
+examine it, make sure there's
+nothing malicious inside of it,
+
+179
+00:07:35,030 --> 00:07:38,050
+and then send the response
+down to the users.
+
+180
+00:07:38,050 --> 00:07:40,210
+It's common to use
+proxies for URL
+
+181
+00:07:40,210 --> 00:07:42,130
+filtering and content scanning.
+
+182
+00:07:42,130 --> 00:07:44,470
+It can also be used
+to cache information
+
+183
+00:07:44,470 --> 00:07:46,870
+to improve the overall
+performance of the network
+
+184
+00:07:46,870 --> 00:07:48,340
+communication.
+
+185
+00:07:48,340 --> 00:07:51,730
+If your organization is
+using an explicit proxy,
+
+186
+00:07:51,730 --> 00:07:53,650
+then the applications
+have to know
+
+187
+00:07:53,650 --> 00:07:57,270
+how to use that proxy to be able
+to communicate to the outside.
+
+188
+00:07:57,270 --> 00:07:59,560
+And applications have
+to be specially written
+
+189
+00:07:59,560 --> 00:08:01,420
+so that they're able
+to take advantage
+
+190
+00:08:01,420 --> 00:08:03,610
+of this proxy technology.
+
+191
+00:08:03,610 --> 00:08:06,610
+A more common proxy is
+a transparent proxy.
+
+192
+00:08:06,610 --> 00:08:08,590
+With a transparent
+proxy, the applications
+
+193
+00:08:08,590 --> 00:08:10,420
+don't have to be
+written a certain way.
+
+194
+00:08:10,420 --> 00:08:13,120
+And your users don't even
+know the proxy is there.
+
+195
+00:08:13,120 --> 00:08:16,330
+Your users will simply browse
+to the internet as usual,
+
+196
+00:08:16,330 --> 00:08:19,780
+and the transparent proxy will
+intercept that communication.
+
+197
+00:08:19,780 --> 00:08:22,030
+The proxy then makes the
+request on their behalf
+
+198
+00:08:22,030 --> 00:08:23,530
+and receives the response.
+
+199
+00:08:23,530 --> 00:08:26,530
+It examines the response,
+and if everything looks good,
+
+200
+00:08:26,530 --> 00:08:29,700
+it provides the response
+to the end user.
+
+201
+00:08:29,700 --> 00:08:33,179
+As you can imagine, a proxy
+has to be specifically written
+
+202
+00:08:33,179 --> 00:08:36,210
+to be able to understand how
+certain applications will
+
+203
+00:08:36,210 --> 00:08:37,210
+operate.
+
+204
+00:08:37,210 --> 00:08:40,500
+And it's very common for these
+application-level proxies
+
+205
+00:08:40,500 --> 00:08:42,510
+to be able to
+understand, perhaps,
+
+206
+00:08:42,510 --> 00:08:45,330
+one application, such as HTTP.
+
+207
+00:08:45,330 --> 00:08:47,340
+You may have to enable
+additional features
+
+208
+00:08:47,340 --> 00:08:49,560
+or use additional
+proxies if you need
+
+209
+00:08:49,560 --> 00:08:54,010
+to be able to proxy other types
+of applications, such as HTTPS,
+
+210
+00:08:54,010 --> 00:08:57,530
+FTP, and any other type of app.
+
+211
+00:08:57,530 --> 00:08:59,710
+A VPN concentrator
+is a device we
+
+212
+00:08:59,710 --> 00:09:01,780
+would install onto
+our network that
+
+213
+00:09:01,780 --> 00:09:05,980
+would allow us to support VPNs,
+or Virtual Private Networks.
+
+214
+00:09:05,980 --> 00:09:08,410
+This would allow someone on
+the outside of our network
+
+215
+00:09:08,410 --> 00:09:11,060
+to communicate over
+the public internet,
+
+216
+00:09:11,060 --> 00:09:13,840
+but send that communication
+in encrypted form.
+
+217
+00:09:13,840 --> 00:09:16,660
+When it's received by
+our VPN concentrator,
+
+218
+00:09:16,660 --> 00:09:20,660
+it's decrypted and then put
+onto our local internal network.
+
+219
+00:09:20,660 --> 00:09:23,710
+This VPN concentrator can
+be a standalone device.
+
+220
+00:09:23,710 --> 00:09:26,560
+But we can also integrate
+this into most firewalls.
+
+221
+00:09:26,560 --> 00:09:29,500
+So the firewall is providing
+not only the security gateway
+
+222
+00:09:29,500 --> 00:09:32,440
+to your network, but it's
+also acting as the endpoint
+
+223
+00:09:32,440 --> 00:09:34,300
+for these VPN tunnels.
+
+224
+00:09:34,300 --> 00:09:36,190
+For smaller implementations,
+you could even
+
+225
+00:09:36,190 --> 00:09:38,950
+create a VPN concentrator
+using software
+
+226
+00:09:38,950 --> 00:09:43,090
+on an individual server instead
+of using dedicated hardware.
+
+227
+00:09:43,090 --> 00:09:44,980
+You would also need
+client software
+
+228
+00:09:44,980 --> 00:09:48,400
+on the end station that's able
+to communicate to these VPN
+
+229
+00:09:48,400 --> 00:09:49,510
+concentrators.
+
+230
+00:09:49,510 --> 00:09:51,130
+And often, operating
+systems will
+
+231
+00:09:51,130 --> 00:09:55,990
+ship with certain types of VPN
+software built into the OS.
+
+232
+00:09:55,990 --> 00:09:59,470
+For a remote access VPN,
+we'd have a VPN concentrator
+
+233
+00:09:59,470 --> 00:10:00,900
+at our main location.
+
+234
+00:10:00,900 --> 00:10:04,540
+And inside our network, we have
+all of our corporate resources.
+
+235
+00:10:04,540 --> 00:10:07,042
+The VPN concentrator is
+connected to the internet,
+
+236
+00:10:07,042 --> 00:10:08,500
+which means you
+could be anywhere--
+
+237
+00:10:08,500 --> 00:10:10,120
+perhaps at a coffee shop--
+
+238
+00:10:10,120 --> 00:10:12,610
+needing access to
+the internal network.
+
+239
+00:10:12,610 --> 00:10:15,740
+You would start up your VPN
+software on your laptop,
+
+240
+00:10:15,740 --> 00:10:17,560
+and it would build
+an encrypted tunnel
+
+241
+00:10:17,560 --> 00:10:19,750
+into the VPN concentrator.
+
+242
+00:10:19,750 --> 00:10:22,450
+Anything sent over
+this VPN tunnel
+
+243
+00:10:22,450 --> 00:10:25,600
+would all be encrypted between
+your laptop and the VPN
+
+244
+00:10:25,600 --> 00:10:26,560
+concentrator.
+
+245
+00:10:26,560 --> 00:10:28,780
+If anyone was listening
+in the middle,
+
+246
+00:10:28,780 --> 00:10:30,580
+they wouldn't be able
+to make any sense
+
+247
+00:10:30,580 --> 00:10:32,200
+of this communication.
+
+248
+00:10:32,200 --> 00:10:34,300
+The VPN concentrator
+is in charge
+
+249
+00:10:34,300 --> 00:10:36,880
+of decrypting that
+information and sending it
+
+250
+00:10:36,880 --> 00:10:38,180
+into the local network.
+
+251
+00:10:38,180 --> 00:10:42,070
+Any responses would also be re
+encrypted by the concentrator
+
+252
+00:10:42,070 --> 00:10:44,860
+and sent back to the
+user on their laptop.
+
+253
+00:10:44,860 --> 00:10:46,670
+It's very common these
+days to configure
+
+254
+00:10:46,670 --> 00:10:49,300
+a VPN software to be always on.
+
+255
+00:10:49,300 --> 00:10:50,920
+So if you're outside
+the building,
+
+256
+00:10:50,920 --> 00:10:53,960
+it recognizes that you're
+on an external network.
+
+257
+00:10:53,960 --> 00:10:55,810
+And if you are on
+an external network,
+
+258
+00:10:55,810 --> 00:10:57,940
+it will automatically
+build this tunnel back
+
+259
+00:10:57,940 --> 00:10:59,620
+to the VPN concentrator.
+
+260
+00:10:59,620 --> 00:11:02,560
+So always, when you're using
+this laptop from wherever
+
+261
+00:11:02,560 --> 00:11:05,860
+you happen to be, you will be
+using a secure channel back
+
+262
+00:11:05,860 --> 00:11:08,150
+to the central office.
+
+263
+00:11:08,150 --> 00:11:10,500
+Whenever we're using
+resources on our network,
+
+264
+00:11:10,500 --> 00:11:13,370
+we're constantly needing
+to identify ourselves.
+
+265
+00:11:13,370 --> 00:11:15,440
+We need to identify
+ourselves when we sit down
+
+266
+00:11:15,440 --> 00:11:17,990
+at our computer, when we
+connect to a wireless network,
+
+267
+00:11:17,990 --> 00:11:21,260
+or when we try to access a
+resource across the network.
+
+268
+00:11:21,260 --> 00:11:23,270
+To gain access to
+these resources,
+
+269
+00:11:23,270 --> 00:11:26,030
+we need some way to
+validate that we are really
+
+270
+00:11:26,030 --> 00:11:27,350
+who we say we are.
+
+271
+00:11:27,350 --> 00:11:30,380
+And in those cases, we would
+use a triple-a framework
+
+272
+00:11:30,380 --> 00:11:33,680
+to provide the authentication,
+the authorization,
+
+273
+00:11:33,680 --> 00:11:37,280
+and the accounting to keep track
+of exactly what you've accessed
+
+274
+00:11:37,280 --> 00:11:39,540
+and when on the network.
+
+275
+00:11:39,540 --> 00:11:41,330
+The authentication
+process is one
+
+276
+00:11:41,330 --> 00:11:42,810
+that we're very familiar with.
+
+277
+00:11:42,810 --> 00:11:44,600
+We provide a
+username, and then we
+
+278
+00:11:44,600 --> 00:11:46,880
+provide something
+secret, like a password,
+
+279
+00:11:46,880 --> 00:11:49,730
+to prove that we really
+are who we say we are.
+
+280
+00:11:49,730 --> 00:11:52,160
+Based on that information,
+we'll be authorized
+
+281
+00:11:52,160 --> 00:11:54,980
+to use certain resources
+on the network based
+
+282
+00:11:54,980 --> 00:11:58,550
+on the rights and permissions
+associated with our username.
+
+283
+00:11:58,550 --> 00:12:02,210
+This is also going to keep track
+of exactly when I logged on,
+
+284
+00:12:02,210 --> 00:12:05,510
+when I logged off, and exactly
+what information was sent back
+
+285
+00:12:05,510 --> 00:12:08,090
+and forth over the network.
+
+286
+00:12:08,090 --> 00:12:10,040
+This triple-a
+framework commonly runs
+
+287
+00:12:10,040 --> 00:12:13,140
+on a triple-a server that's
+somewhere in our network.
+
+288
+00:12:13,140 --> 00:12:15,800
+So we may be a client that's
+outside of our network
+
+289
+00:12:15,800 --> 00:12:19,410
+trying to log in and gain
+access through a VPN tunnel.
+
+290
+00:12:19,410 --> 00:12:21,350
+So we'll hit the
+VPN concentrator,
+
+291
+00:12:21,350 --> 00:12:23,960
+and we'll provide our
+username and our password
+
+292
+00:12:23,960 --> 00:12:25,310
+to gain access.
+
+293
+00:12:25,310 --> 00:12:28,220
+That request is passed
+off to the triple-a server
+
+294
+00:12:28,220 --> 00:12:31,610
+to check to see if the username
+and password are legitimate.
+
+295
+00:12:31,610 --> 00:12:33,560
+And if they are,
+the triple-a server
+
+296
+00:12:33,560 --> 00:12:35,420
+will approve those
+credentials, and we'll
+
+297
+00:12:35,420 --> 00:12:39,660
+have access to the resources
+on the inside of the network.
+
+298
+00:12:39,660 --> 00:12:42,470
+A very common protocol used
+for this triple-a service
+
+299
+00:12:42,470 --> 00:12:43,310
+is RADIUS.
+
+300
+00:12:43,310 --> 00:12:46,290
+This stands for Remote
+Authentication Dial-in User
+
+301
+00:12:46,290 --> 00:12:47,310
+Service.
+
+302
+00:12:47,310 --> 00:12:49,940
+And although the name
+has dial-in in the name,
+
+303
+00:12:49,940 --> 00:12:52,940
+it is one of the most popular
+authentication protocols
+
+304
+00:12:52,940 --> 00:12:55,730
+that's used for much
+more than just dial-in.
+
+305
+00:12:55,730 --> 00:12:58,520
+The RADIUS protocol may be
+used to authenticate users
+
+306
+00:12:58,520 --> 00:12:59,990
+to routers and switches.
+
+307
+00:12:59,990 --> 00:13:02,630
+It may be used to provide
+access to servers.
+
+308
+00:13:02,630 --> 00:13:04,280
+Maybe this is the
+protocol that's
+
+309
+00:13:04,280 --> 00:13:07,280
+used to gain access
+over your VPN tunnels.
+
+310
+00:13:07,280 --> 00:13:09,650
+And it may be used over
+your wireless networks using
+
+311
+00:13:09,650 --> 00:13:11,570
+a 802.1X.
+
+312
+00:13:11,570 --> 00:13:13,940
+RADIUS is one of the most
+popular authentication
+
+313
+00:13:13,940 --> 00:13:15,830
+protocols, and
+you'll see it used
+
+314
+00:13:15,830 --> 00:13:20,470
+across a number of different
+services and operating systems.
+
+315
+00:13:20,470 --> 00:13:22,721
+So far, we've talked about
+many different components
+
+316
+00:13:22,721 --> 00:13:24,220
+that you could have
+in your network.
+
+317
+00:13:24,220 --> 00:13:27,970
+Routers, intrusion detection
+systems, firewalls, proxies,
+
+318
+00:13:27,970 --> 00:13:30,250
+VPN concentrators, and more.
+
+319
+00:13:30,250 --> 00:13:32,620
+But if your environment
+is relatively small,
+
+320
+00:13:32,620 --> 00:13:35,110
+you may be able to combine
+all of these functions
+
+321
+00:13:35,110 --> 00:13:37,460
+into a single security device.
+
+322
+00:13:37,460 --> 00:13:41,540
+This is called a UTM, or Unified
+Threat Management device.
+
+323
+00:13:41,540 --> 00:13:45,530
+Some people will refer to this
+as a web security gateway.
+
+324
+00:13:45,530 --> 00:13:48,700
+A UTM can be used for
+URL filtering or content
+
+325
+00:13:48,700 --> 00:13:49,650
+inspection.
+
+326
+00:13:49,650 --> 00:13:51,790
+It may be able to
+scan files that
+
+327
+00:13:51,790 --> 00:13:55,000
+are downloaded for any type of
+malware that might be inside.
+
+328
+00:13:55,000 --> 00:13:58,300
+It may also be able to identify
+spam in any emails that
+
+329
+00:13:58,300 --> 00:13:59,620
+might be downloaded.
+
+330
+00:13:59,620 --> 00:14:01,810
+If you're connecting
+to a wide area network,
+
+331
+00:14:01,810 --> 00:14:05,290
+some of the wide area network
+hardware, such as the CSU/DSU,
+
+332
+00:14:05,290 --> 00:14:08,590
+may also be integrated
+into this same chassis.
+
+333
+00:14:08,590 --> 00:14:11,050
+This could also provide
+Layer 3 routing and even
+
+334
+00:14:11,050 --> 00:14:13,660
+Layer 2 switching
+on certain UTMs.
+
+335
+00:14:13,660 --> 00:14:15,740
+And, of course, from a
+security perspective,
+
+336
+00:14:15,740 --> 00:14:19,840
+we need firewall functionality
+and IDS/IPS functionality
+
+337
+00:14:19,840 --> 00:14:21,250
+in our UTM.
+
+338
+00:14:21,250 --> 00:14:24,100
+You might also find UTMs that
+are able to provide bandwidth
+
+339
+00:14:24,100 --> 00:14:24,790
+shaping.
+
+340
+00:14:24,790 --> 00:14:26,920
+So you can prioritize
+certain applications
+
+341
+00:14:26,920 --> 00:14:28,750
+that are communicating
+to the internet.
+
+342
+00:14:28,750 --> 00:14:31,030
+And if you need a
+VPN concentrator,
+
+343
+00:14:31,030 --> 00:14:33,820
+you can add that function and
+all of these other functions
+
+344
+00:14:33,820 --> 00:14:38,480
+at the same time within the
+same chassis with a UTM.
+
+345
+00:14:38,480 --> 00:14:40,490
+These days, firewalls
+are much more
+
+346
+00:14:40,490 --> 00:14:44,030
+than devices that can allow
+or disallow traffic based
+
+347
+00:14:44,030 --> 00:14:46,820
+on a TCP or UDP port number.
+
+348
+00:14:46,820 --> 00:14:50,030
+Modern firewalls are able to
+look at the applications that
+
+349
+00:14:50,030 --> 00:14:51,680
+are flowing across the network.
+
+350
+00:14:51,680 --> 00:14:56,480
+And we call these next
+generation firewalls, or NGFW.
+
+351
+00:14:56,480 --> 00:14:58,580
+You might also see
+these next generation
+
+352
+00:14:58,580 --> 00:15:00,590
+firewalls called
+application layer
+
+353
+00:15:00,590 --> 00:15:04,940
+gateways, stateful multilayer
+inspection devices, or devices
+
+354
+00:15:04,940 --> 00:15:07,970
+that are performing
+deep packet inspection.
+
+355
+00:15:07,970 --> 00:15:10,190
+That's because a next
+generation firewall
+
+356
+00:15:10,190 --> 00:15:12,500
+is looking at every
+bit and byte that's
+
+357
+00:15:12,500 --> 00:15:13,890
+going through the network.
+
+358
+00:15:13,890 --> 00:15:15,380
+It's looking at
+every frame that's
+
+359
+00:15:15,380 --> 00:15:18,800
+passing through the network, and
+making security decisions based
+
+360
+00:15:18,800 --> 00:15:22,580
+on what happens to be within
+all of the data of that frame.
+
+361
+00:15:22,580 --> 00:15:25,850
+So it may be able to allow
+communication to Facebook,
+
+362
+00:15:25,850 --> 00:15:29,780
+allow communication to Twitter,
+but not allow someone to post
+
+363
+00:15:29,780 --> 00:15:32,060
+to Facebook or post to Twitter.
+
+364
+00:15:32,060 --> 00:15:34,760
+That's because these firewalls
+can really understand
+
+365
+00:15:34,760 --> 00:15:36,680
+all of the applications in use.
+
+366
+00:15:36,680 --> 00:15:39,800
+And, in some cases, can
+understand different functions
+
+367
+00:15:39,800 --> 00:15:43,010
+of the applications
+you happen to be using.
+
+368
+00:15:43,010 --> 00:15:46,930
+In most organizations, everyone
+has a phone on their desk.
+
+369
+00:15:46,930 --> 00:15:50,170
+We used to accomplish this
+by using a PBX, that's
+
+370
+00:15:50,170 --> 00:15:52,390
+a Private Branch Exchange.
+
+371
+00:15:52,390 --> 00:15:55,240
+You effectively have your
+own private phone switch
+
+372
+00:15:55,240 --> 00:15:56,650
+within your company.
+
+373
+00:15:56,650 --> 00:15:59,920
+That phone switch then connects
+to your phone provider network,
+
+374
+00:15:59,920 --> 00:16:02,920
+and you're able to send
+and receive phone calls.
+
+375
+00:16:02,920 --> 00:16:05,680
+This also meant that we had
+to run additional telephone
+
+376
+00:16:05,680 --> 00:16:07,450
+lines to everyone's desk.
+
+377
+00:16:07,450 --> 00:16:11,320
+So it would be very common to
+run two wires for every desk.
+
+378
+00:16:11,320 --> 00:16:13,840
+One wire for the
+telephone, and another wire
+
+379
+00:16:13,840 --> 00:16:16,030
+for the local area network.
+
+380
+00:16:16,030 --> 00:16:18,970
+Today, we're using a
+voice over IP PBX, where
+
+381
+00:16:18,970 --> 00:16:21,520
+we're able to integrate
+all of your different voice
+
+382
+00:16:21,520 --> 00:16:22,780
+over IP devices.
+
+383
+00:16:22,780 --> 00:16:26,440
+Your voice over IP handsets,
+voice over IP software
+
+384
+00:16:26,440 --> 00:16:28,900
+that's in your mobile
+devices and in your browser,
+
+385
+00:16:28,900 --> 00:16:30,400
+and you're able to
+make phone calls
+
+386
+00:16:30,400 --> 00:16:34,900
+using those devices over your
+existing local area network.
+
+387
+00:16:34,900 --> 00:16:37,540
+With his voice over
+IP PBX, you no longer
+
+388
+00:16:37,540 --> 00:16:40,510
+need to run multiple
+cables to every desk.
+
+389
+00:16:40,510 --> 00:16:43,570
+These devices will simply plug
+in to the existing Ethernet
+
+390
+00:16:43,570 --> 00:16:45,130
+connections.
+
+391
+00:16:45,130 --> 00:16:46,930
+Of course, not
+everything in the world
+
+392
+00:16:46,930 --> 00:16:50,140
+is communicating using these
+voice over IP protocols
+
+393
+00:16:50,140 --> 00:16:51,410
+and technologies.
+
+394
+00:16:51,410 --> 00:16:53,500
+So in some cases,
+you also need a voice
+
+395
+00:16:53,500 --> 00:16:56,920
+over IP gateway that can
+convert your voice over IP
+
+396
+00:16:56,920 --> 00:17:00,040
+communication into something
+the traditional public switch
+
+397
+00:17:00,040 --> 00:17:03,100
+telephone network
+can understand.
+
+398
+00:17:03,100 --> 00:17:06,550
+These days, a lot of the
+malicious software and data
+
+399
+00:17:06,550 --> 00:17:10,540
+leakage is occurring within
+the data of our applications.
+
+400
+00:17:10,540 --> 00:17:12,700
+So to control that, we
+may want to implement
+
+401
+00:17:12,700 --> 00:17:15,910
+some type of content
+filtering on our network.
+
+402
+00:17:15,910 --> 00:17:19,180
+This would allow us to look into
+the data going back and forth
+
+403
+00:17:19,180 --> 00:17:21,220
+and determine if somebody
+may be transferring
+
+404
+00:17:21,220 --> 00:17:24,460
+sensitive information into
+or out of our network.
+
+405
+00:17:24,460 --> 00:17:27,460
+This can also look for
+inappropriate content.
+
+406
+00:17:27,460 --> 00:17:31,000
+If we wanted to provide parental
+controls on our network,
+
+407
+00:17:31,000 --> 00:17:33,770
+we would commonly
+use a content filter.
+
+408
+00:17:33,770 --> 00:17:36,350
+And, of course, we need to
+be able to look for malware.
+
+409
+00:17:36,350 --> 00:17:39,190
+So usually anti-malware
+and anti-virus
+
+410
+00:17:39,190 --> 00:17:41,860
+is built in to the
+content filtering system
+
+411
+00:17:41,860 --> 00:17:44,430
+we might have on our network.
+
